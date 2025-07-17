@@ -1,24 +1,18 @@
 {
-    "QuestName": "default",
+    "QuestName": "debut",
     "Locations": [
         "any"
     ],
-    "Kappa": false,
+    "Kappa": true,
     "LeadsTo": [
-        "a"
-    ],
-    "Alternatives": [
-        "a",
-        "b"
+        "search mission",
+        "luxurious life"
     ],
     "Requirements": {
         "Level": 0,
         "Quests": [
-            "a"
-        ],
-        "Items": [
-            "a"
-        ]    
+            "shooting cans"
+        ] 
     },
     "Objectives": [
         {
@@ -38,11 +32,11 @@
                 0.0
             ],
             "Target": "scav",
-            "Amount": 1
+            "Amount": 5
         },
         {
-            "Required": false,
-            "Location": "customs",
+            "Required": true,
+            "Location": "any",
             "LocationBoxTopLeft": [
                 0,
                 0
@@ -51,24 +45,44 @@
                 0,
                 0
             ],
-            "Type": "find",
+            "Type": "gather",
             "Time": [
                 0.0,
                 0.0
             ],
-            "Target": "default",
-            "Amount": 1
+            "Target": "MP-133",
+            "Amount": 2
         }
 
     ],
     "Rewards": [
         {
             "Name": "xp",
-            "Amount": 0
+            "Amount": 1700
         },
         {
-            "Name": "rep",
-            "Amount": 0.0
+            "Name": "Prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "Jaeger rep",
+            "Amount": 0.01
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 15000
+        },
+        {
+            "Name": "PP-91 Kedr",
+            "Amount": 1
+        },
+        {
+            "Name": "9x18 PM BZhT gzh ammo pack (50 rounds)",
+            "Amount": 2
+        },
+        {
+            "Name": "Purchase AKS-74UB at Prapor lvl 1",
+            "Amount": 1
         }
     ]
 }

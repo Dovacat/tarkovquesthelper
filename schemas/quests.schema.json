@@ -1,0 +1,163 @@
+
+
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "QuestName": {
+            "type": "string"
+        },
+        "Locations": {
+            "type": "array",
+            "items": [
+                {
+                    "type": "string"
+                }
+            ]
+        },
+        "Kappa": {
+            "type": "boolean"
+        },
+        "LeadsTo": {
+            "type": "array",
+            "items": [
+                {
+                    "type": "string"
+                }
+            ]
+        },
+        "Alternatives": {
+            "type": "array",
+            "items": [
+                {
+                    "type": "string"
+                }
+            ]
+        },
+        "Requirements": {
+            "type": "object",
+            "properties": {
+                "Level": {
+                    "type": "integer"
+                },
+                "Quests": {
+                    "type": "array",
+                    "items": [
+                        {
+                            "type": "string"
+                        }
+                    ]
+                },
+                "Items": {
+                    "type": "array",
+                    "items": [
+                        {
+                            "type": "string"
+                        }
+                    ]
+                }
+            },
+            "required": [
+                "Level"
+            ]
+        },
+        "Objectives": {
+            "type": "array",
+            "items": [
+                {
+                    "type": "object",
+                    "properties": {
+                        "Required": {
+                            "type": "boolean"
+                        },
+                        "Location": {
+                            "type": "string"
+                        },
+                        "LocationBoxTopLeft": {
+                            "type": "array",
+                            "items": [
+                                {
+                                    "type": "integer"
+                                },
+                                {
+                                    "type": "integer"
+                                }
+                            ]
+                        },
+                        "LocationBoxBottomRight": {
+                            "type": "array",
+                            "items": [
+                                {
+                                    "type": "integer"
+                                },
+                                {
+                                    "type": "integer"
+                                }
+                            ]
+                        },
+                        "Type": {
+                            "type": "string"
+                        },
+                        "Time": {
+                            "type": "array",
+                            "items": [
+                                {
+                                    "type": "number"
+                                },
+                                {
+                                    "type": "number"
+                                }
+                            ]
+                        },
+                        "Target": {
+                            "type": "string"
+                        },
+                        "Amount": {
+                            "type": "integer"
+                        }
+                    },
+                    "required": [
+                        "Required",
+                        "Location",
+                        "LocationBoxTopLeft",
+                        "LocationBoxBottomRight",
+                        "Type",
+                        "Time",
+                        "Target",
+                        "Amount"
+                    ]
+                }
+            ]
+        },
+        "Rewards": {
+            "type": "array",
+            "items": [
+                {
+                    "type": "object",
+                    "properties": {
+                        "Name": {
+                            "type": "string"
+                        },
+                        "Amount": {
+                            "type": "number"
+                        }
+                    },
+                    "required": [
+                        "Name",
+                        "Amount"
+                    ]
+                }
+            ]
+        }
+    },
+    "required": [
+        "QuestName",
+        "Locations",
+        "Kappa",
+        "LeadsTo",
+        "Requirements",
+        "Objectives",
+        "Rewards"
+    ]
+}
+
