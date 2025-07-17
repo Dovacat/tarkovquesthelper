@@ -37,7 +37,7 @@ jobs:
         pip install -r ./.github/requirements-dev.txt
 
     - name: Validate quest schema
-      run: check-jsonschema --schemafile schemas/quests.schema.json 'quests/**/*.json'
+      run: check-jsonschema --schemafile schemas/quests.schema.json quests/*/*.json
 
     #- name: Validate pdata schema
     #  run: check-jsonschema --schemafile schemas/pdata.schema.json   'pdata/**/*.json'
