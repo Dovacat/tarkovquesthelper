@@ -1,17 +1,17 @@
 {
-    "QuestName": "debut",
+    "QuestName": "Debut",
     "Locations": [
         "any"
     ],
     "Kappa": true,
     "LeadsTo": [
-        "search mission",
-        "luxurious life"
+        "Search Mission",
+        "Luxurious Life"
     ],
     "Requirements": {
         "Level": 0,
         "Quests": [
-            "shooting cans"
+            "Shooting Cans"
         ] 
     },
     "Objectives": [
@@ -53,7 +53,6 @@
             "Target": "MP-133",
             "Amount": 2
         }
-
     ],
     "Rewards": [
         {
