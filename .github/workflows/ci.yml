@@ -15,11 +15,11 @@ jobs:
       uses: actions/cache@v4
       with:
         path: ~/.cache/pip
-        key: ${{ runner.os }}-pip-${{ hashFiles('requirements-dev.txt') }}
+        key: ${{ runner.os }}-pip-${{ hashFiles('./.github/requirements.txt') }}
     - if: steps.pip-cache.outputs.cache-hit != 'true'
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements-dev.txt
+        pip install -r ./.github/requirements.txt
 
   json-lint:
     needs: setup
@@ -30,7 +30,11 @@ jobs:
       with:
         python-version: "3.12"
         cache: pip
-        cache-dependency-path: requirements-dev.txt
+        cache-dependency-path: ./.github/requirements.txt
+    - name: Install dev dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements-dev.txt
 
     - name: Validate quest schema
       run: check-jsonschema --schemafile schemas/quests.schema.json 'quests/**/*.json'
@@ -47,7 +51,11 @@ jobs:
       with:
         python-version: "3.12"
         cache: pip
-        cache-dependency-path: requirements-dev.txt
+        cache-dependency-path: ./.github/requirements.txt
+    - name: Install dev dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements-dev.txt
     - name: Ruff lint
       run: ruff check .
     - name: Ruff format check
