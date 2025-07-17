@@ -59,4 +59,19 @@ jobs:
     - name: Ruff lint
       run: ruff check .
     - name: Ruff format check
-      run: ruff format --check .
+      shell: bash
+      run: |
+        # run both --check (for exit‑code) and --diff (for patch)
+        ruff format --check --diff . > ruff-format.patch || RC=$?
+        echo "exit_code=${RC:-0}" >> "$GITHUB_OUTPUT"
+      continue-on-error: true
+    - name: Upload Ruff diff artifact
+      if: steps.ruff_fmt.outputs.exit_code != '0'
+      uses: actions/upload-artifact@v4
+      with:
+        name: ruff-format-diff
+        path: ruff-format.patch
+        retention-days: 1
+    - name: Fail job on bad formatting
+      if: steps.ruff_fmt.outputs.exit_code != '0'
+      run: exit 1
