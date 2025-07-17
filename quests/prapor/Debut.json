@@ -11,10 +11,9 @@
     "Requirements": {
         "Level": 0,
         "Quests": [
-            "shooting cans"
+            1
         ] 
     },
-    "Bruh": "test",
     "Objectives": [
         {
             "Required": true,
