@@ -1,2 +1,4 @@
-ruff==0.12.3
-check-jsonschema==0.33.2
+# JSON Schema validator
+check-jsonschema==0.33.2   # 2025‑07‑03 :contentReference[oaicite:0]{index=0}
+# Python linter / formatter
+ruff==0.12.3               # 2025‑07‑11 :contentReference[oaicite:1]{index=1}
