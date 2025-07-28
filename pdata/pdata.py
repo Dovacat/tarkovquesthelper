@@ -6,7 +6,6 @@
 
 from quests import quests as q
 import json
-import os
 
 class PlayerData():
     def __init__(self):
@@ -42,17 +41,21 @@ class PlayerData():
             json.dump(self.pdata, f)
 
     def add_active_quest(self, quest):
-        self.pdata['ActiveQuests'].append(quest)
-        self.update_json()
+        if(quest not in self.pdata.get("ActiveQuests")):
+            self.pdata['ActiveQuests'].append(quest)
+            self.update_json()
 
     def remove_active_quest(self, quest):
-        self.pdata['ActiveQuests'].remove(quest)
-        self.update_json()
+        if(quest in self.pdata.get("ActiveQuests")):
+            self.pdata['ActiveQuests'].remove(quest)
+            self.update_json()
 
     def add_completed_quest(self, quest):
-        self.pdata['CompletedQuests'].append(quest)
-        self.update_json()
+        if(quest not in self.pdata.get("CompletedQuests")):
+            self.pdata['CompletedQuests'].append(quest)
+            self.update_json()
 
     def remove_completed_quest(self, quest):
-        self.pdata['CompletedQuests'].remove(quest)
-        self.update_json()
+        if(quest in self.pdata.get("CompletedQuests")):
+            self.pdata['CompletedQuests'].remove(quest)
+            self.update_json()
