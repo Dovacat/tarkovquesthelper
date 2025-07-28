@@ -211,7 +211,7 @@ class QuestViewer(tk.Tk):
             self.ingest_boxes(self.update_quests(self.current_map))
             self.redraw_boxes()
         for lab in ("inactive","active","completed"):
-            menu.add_command(label=f"Mark {lab}", command=lambda l=lab: apply_status(selected[0], l))
+            menu.add_command(label=f"Mark {lab}", command=lambda new_lab=lab: apply_status(selected[0], new_lab))
         selected=[None]
         def popup(ev):
             item=tree.identify_row(ev.y)
