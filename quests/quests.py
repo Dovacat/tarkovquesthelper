@@ -19,11 +19,11 @@ class Quests():
                         self.quest_list.append((data.get("QuestName"), os.path.join(root, file)))
 
     def get_quests(self):
-        l = []
+        q_list = []
         for name, dir in self.quest_list:
-            l.append(name)
+            q_list.append(name)
 
-        return(l)
+        return(q_list)
 
     def get_file_from_quest(self, quest):
         for name, dir in self.quest_list:

@@ -68,13 +68,17 @@ class QuestViewer(tk.Tk):
     def update_file_list(self):
         self.images = [p for p in glob.glob(os.path.join(self.image_dir, "*")) if p.lower().endswith(IMAGE_EXTS)]
         self.cmb["values"] = [os.path.basename(p) for p in self.images]
-        if not self.images: messagebox.showinfo("No images", f"No images found in {self.image_dir}"); self.orig_im=None; self.canvas.delete("all")
+        if not self.images:
+            messagebox.showinfo("No images", f"No images found in {self.image_dir}")
+            self.orig_im=None
+            self.canvas.delete("all")
 
     def load_image(self):
         idx = self.cmb.current()
-        if idx < 0: return
+        if idx < 0:
+            return
         path = self.images[idx]
-        try: 
+        try:
             self.orig_im = Image.open(path).convert("RGBA")
         except Exception as e:
             messagebox.showerror("Error", str(e))
@@ -104,7 +108,8 @@ class QuestViewer(tk.Tk):
                 self.tree.insert(pid, "end", text=itm["desc"], tags=("done",) if itm["done"] else ())
 
     def redraw(self, *_):
-        if not self.orig_im: return
+        if not self.orig_im:
+            return
         cw,ch = self.canvas.winfo_width(), self.canvas.winfo_height()
         iw,ih = self.orig_im.size
         self.scale=min(cw/iw,ch/ih)
@@ -135,10 +140,13 @@ class QuestViewer(tk.Tk):
         if not self.orig_im:
             return
         for parent, items in self.box_groups.items():
-            if not self.group_vars.get(parent, tk.BooleanVar(value=True)).get(): continue
+            if not self.group_vars.get(parent, tk.BooleanVar(value=True)).get():
+                continue
             for itm in items:
-                if itm["done"]: continue
-                if itm["ul"]==itm["lr"]: continue
+                if itm["done"]:
+                    continue
+                if itm["ul"]==itm["lr"]:
+                    continue
                 self._draw_box(itm["ul"], itm["lr"], color="yellow", dashed=False)
     def _draw_box(self,ul,lr,*,color,striked=False,dashed=False):
         x1,y1=self._grid_to_canvas(*ul)
@@ -149,9 +157,11 @@ class QuestViewer(tk.Tk):
         self.canvas.create_rectangle(x1,y1,x2,y2,**opts)
 
     def on_click(self,e):
-        if not self.orig_im: return
+        if not self.orig_im:
+            return
         x,y=e.x-self.offset_x, e.y-self.offset_y
-        if not(0<=x<self.tk_im.width() and 0<=y<self.tk_im.height()): return
+        if not(0<=x<self.tk_im.width() and 0<=y<self.tk_im.height()):
+            return
         imgx,imgy=x/self.scale, y/self.scale
         cw=self.orig_im.width/GRID_DIVISIONS
         ch=self.orig_im.height/GRID_DIVISIONS
@@ -180,7 +190,8 @@ class QuestViewer(tk.Tk):
             act=set(self.player.get_active_quests())
             comp=set(self.player.get_completed_quests())
             for g in sorted(all_groups):
-                if query and query not in g.lower(): continue
+                if query and query not in g.lower():
+                    continue
                 st="completed" if g in comp else "active" if g in act else "inactive"
                 tree.insert("", "end", text=g, tags=(st,))
         search_var.trace_add("write", refresh_list)
@@ -204,7 +215,8 @@ class QuestViewer(tk.Tk):
         selected=[None]
         def popup(ev):
             item=tree.identify_row(ev.y)
-            if not item: return
+            if not item:
+                return
             selected[0]=tree.item(item,"text")
             tree.selection_set(item)
             menu.tk_popup(ev.x_root, ev.y_root)
