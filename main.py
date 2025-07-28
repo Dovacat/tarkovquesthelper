@@ -233,6 +233,7 @@ class QuestViewer(tk.Tk):
         search_var.trace_add("write", refresh_list)
 
         menu = tk.Menu(win, tearoff=False)
+
         def apply_status(g, to):
             if to == "inactive":
                 self.player.remove_active_quest(g)
@@ -258,7 +259,7 @@ class QuestViewer(tk.Tk):
             item = tree.identify_row(ev.y)
             if not item:
                 return
-            selected[0] = tree.item(item,"text")
+            selected[0] = tree.item(item, "text")
             tree.selection_set(item)
             menu.tk_popup(ev.x_root, ev.y_root)
 
@@ -274,13 +275,13 @@ class QuestViewer(tk.Tk):
                 (
                     objective[0],  # parent quest name
                     self.objective_to_description(objective),  # generated description
-                    objective[1].get( # top left grid box coordinate
+                    objective[1].get(  # top left grid box coordinate
                         "LocationBoxTopLeft"
                     ),
-                    objective[1].get( # bottom right grid box coordinate
+                    objective[1].get(  # bottom right grid box coordinate
                         "LocationBoxBottomRight" 
                     ),
-                    objective[2], # Whether or not this objective is completed
+                    objective[2],  # Whether or not this objective is completed
                 )
             )
 
@@ -315,6 +316,7 @@ class QuestViewer(tk.Tk):
             description = description + " (optional)"
 
         return description
+
 
 if __name__ == "__main__":
     QuestViewer().mainloop()
