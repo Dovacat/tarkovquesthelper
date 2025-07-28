@@ -29,10 +29,10 @@ class PlayerData():
     def get_objectives_on_map(self, map):
         objectives = []
         for quest in self.get_active_quests():
-            if map or "any" in self.quests.get_locations(quest):
+            if map in self.quests.get_locations(quest) or "any" in self.quests.get_locations(quest):
                 quest_objectives = self.quests.get_objectives(quest)
                 for obj in quest_objectives:
-                    if map or "any" in obj.get("Location"):
+                    if map in obj.get("Location") or "any" in obj.get("Location"):
                         objectives.append((quest, obj, False)) # parent quest, objective info, bool for if completed or not
         
         return objectives
