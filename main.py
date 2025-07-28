@@ -1,5 +1,7 @@
+## TO DO
+# have objective boxes change color based on quest type
 from __future__ import annotations
-import pdata.pdata
+import pdata.pdata as p
 import glob
 import os
 import tkinter as tk
@@ -19,23 +21,28 @@ PREDEFINED_BOXES = [
     ("Logo", (1, 17), (6, 19), "cyan", False),
 ]
 
-class ImageGridViewer(tk.Tk):
+class QuestViewer(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("Image Grid Viewer")
         self.geometry("1000x1000")
 
+        self.player = p.PlayerData()
+        self.objective_boxes = []
+
         # internal list of drawn quests
         self._box_ids: List[int] = []
 
         # map selector
-        top = ttk.Frame(self); top.pack(side="top", fill="x", padx=6, pady=4)
+        top = ttk.Frame(self)
+        top.pack(side="top", fill="x", padx=6, pady=4)
         self.path_var = tk.StringVar()
         self.cmb = ttk.Combobox(top, textvariable=self.path_var, state="readonly", postcommand=self.update_file_list, width=60)
         self.cmb.bind("<<ComboboxSelected>>", lambda *_: self.load_image())
         self.cmb.pack(side="left", fill="x", expand=True, padx=4)
 
-        main_pane = ttk.Panedwindow(self, orient="horizontal"); main_pane.pack(fill="both", expand=True)
+        main_pane = ttk.Panedwindow(self, orient="horizontal")
+        main_pane.pack(fill="both", expand=True)
 
         # Canvas for map and quests
         self.canvas = tk.Canvas(main_pane, highlightthickness=0, bg="black")
@@ -47,7 +54,7 @@ class ImageGridViewer(tk.Tk):
         side = ttk.Frame(main_pane, padding=6)
         ttk.Label(side, text="Quests", font=("TkDefaultFont", 10, "bold")).pack(anchor="w")
         self.box_vars: List[tk.BooleanVar] = []
-        for idx, (label, *_ , colour, _dashed) in enumerate(PREDEFINED_BOXES):
+        for idx, (label, *_ , colour, _dashed) in enumerate(self.objective_boxes):
             style_name = f"Box{idx}.TCheckbutton"
             var = tk.BooleanVar(value=False)
             cb = ttk.Checkbutton(side, text=label, variable=var, style=style_name, command=self.draw_selected_quests)
@@ -134,12 +141,12 @@ class ImageGridViewer(tk.Tk):
             return
         for idx, var in enumerate(self.box_vars):
             if var.get():
-                label, ul, lr, colour, dashed = PREDEFINED_BOXES[idx]
+                label, ul, lr, colour, dashed = self.objective_boxes[idx]
                 rid = self.draw_box(ul, lr, color=colour, dashed=dashed)
                 self._box_ids.append(rid)
 
     # get muh coords
-    def on_click(self,event):
+    def on_click(self, event):
         if self.orig_im is None: return
         x_c, y_c = event.x - self.offset_x, event.y - self.offset_y
         if not (0 <= x_c < self.tk_im.width() and 0 <= y_c < self.tk_im.height()): return
@@ -147,10 +154,51 @@ class ImageGridViewer(tk.Tk):
         cell_w, cell_h = self.orig_im.width/GRID_DIVISIONS, self.orig_im.height/GRID_DIVISIONS
         grid_x, grid_y = round(img_x / cell_w), round(img_y / cell_h)
         print(f"{grid_x}, {grid_y}")
-        r=3; self.canvas.create_line(event.x-r,event.y,event.x+r,event.y, fill="red", width=2, tags="clickmarker")
-        self.canvas.create_line(event.x,event.y-r,event.x,event.y+r, fill="red", width=2, tags="clickmarker"); self.canvas.tag_raise("clickmarker")
+        r=3
+        self.canvas.create_line(event.x-r,event.y,event.x+r,event.y, fill="red", width=2, tags="clickmarker")
+        self.canvas.create_line(event.x,event.y-r,event.x,event.y+r, fill="red", width=2, tags="clickmarker")
+        self.canvas.tag_raise("clickmarker")
         self.canvas.tag_raise("clickmarker")
 
+    def update_quests(self, map):
+        active_objectives = []
+        objectives = self.player.get_objectives_on_map(map)
+        for objective in objectives:
+            active_objectives.append((objective[0], # parent quest name
+                                      self.objective_to_description(objective), # generated description
+                                      objective[1].get("LocationBoxTopLeft"), # top left grid box coordinate
+                                      objective[1].get("LocationBoxBottomRight"), # bottom right grid box coordinate
+                                      objective[2])) # Whether or not this objective is completed
+
+        return(active_objectives)
+
+    def objective_to_description(self, objective):
+        description = ""
+
+        if(objective[1].get("Type") == "elimination"):
+            description = description + "Eliminate "
+        elif(objective[1].get("Type") == "fetch" or "gather"):
+            description = description + "Find "
+        elif(objective[1].get("Type") == "scout"):
+            description = description + "Go to "
+        elif(objective[1].get("Type") == "stash"):
+            description = description + "Place "
+        
+        if(objective[1].get("Amount") > 0):
+            description = description + f"{objective[1].get("Amount")} "
+
+        if(objective[1].get("Amount") > 1):
+            description = description + f"{objective[1].get("Target")}s "
+        else:
+            description = description + f"{objective[1].get("Target")} "
+
+        if(objective[1].get("Time")[0] != objective[1].get("Time")[1]):
+            description = description + f"between {objective[1].get("Time")[0]} and {objective[1].get("Time")[1]}"
+
+        if(not objective[1]).get("Required"):
+            description = description + " (optional)"
+
+        return(description)
 
 if __name__ == "__main__":
-    ImageGridViewer().mainloop()
+    QuestViewer().mainloop()

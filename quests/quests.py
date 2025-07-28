@@ -1,3 +1,6 @@
+## TO DO
+# add error handling (file I/O)
+
 import json
 import os
 
@@ -16,7 +19,26 @@ class Quests():
                         self.quest_list.append((data.get("QuestName"), os.path.join(root, file)))
 
     def get_quests(self):
-        return(self.quest_list)
+        l = []
+        for name, dir in self.quest_list:
+            l.append(name)
 
-q = Quests()
-print(q.get_quests())
+        return(l)
+
+    def get_file_from_quest(self, quest):
+        for name, dir in self.quest_list:
+            if name == quest:
+                return(dir)
+
+    def get_json_data(self, quest):
+        with open(self.get_file_from_quest(quest), 'r') as f:
+            data = json.load(f)
+            return(data)
+
+    def get_objectives(self, quest):
+        data = self.get_json_data(quest)
+        return(data.get("Objectives"))
+
+    def get_locations(self, quest):
+        data = self.get_json_data(quest)
+        return(data.get("Locations"))
