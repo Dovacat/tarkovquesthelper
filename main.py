@@ -279,7 +279,7 @@ class QuestViewer(tk.Tk):
                         "LocationBoxTopLeft"
                     ),
                     objective[1].get(  # bottom right grid box coordinate
-                        "LocationBoxBottomRight" 
+                        "LocationBoxBottomRight"
                     ),
                     objective[2],  # Whether or not this objective is completed
                 )
