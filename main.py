@@ -14,11 +14,12 @@ from PIL import Image, ImageTk
 IMAGE_EXTS = (".png", ".jpg")
 GRID_DIVISIONS = 100
 
-STATUS_COLORS  = {
+STATUS_COLORS = {
     "inactive": "#808080",
-    "active":   "#dcae00",
-    "completed":"#008000",
+    "active": "#dcae00",
+    "completed": "#008000",
 }
+
 
 class QuestViewer(tk.Tk):
     def __init__(self):
@@ -35,10 +36,18 @@ class QuestViewer(tk.Tk):
         top = ttk.Frame(self)
         top.pack(fill="x", padx=6, pady=4)
         self.path_var = tk.StringVar()
-        self.cmb = ttk.Combobox(top, textvariable=self.path_var, state="readonly", postcommand=self.update_file_list, width=50)
+        self.cmb = ttk.Combobox(
+            top,
+            textvariable=self.path_var,
+            state="readonly",
+            postcommand=self.update_file_list,
+            width=50,
+        )
         self.cmb.bind("<<ComboboxSelected>>", lambda *_: self.load_image())
         self.cmb.pack(side="left", fill="x", expand=True, padx=4)
-        ttk.Button(top, text="Manage Quests", command=self.open_group_manager).pack(side="left", padx=4)
+        ttk.Button(top, text="Manage Quests", command=self.open_group_manager).pack(
+            side="left", padx=4
+        )
         main = ttk.Panedwindow(self, orient="horizontal")
         main.pack(fill="both", expand=True)
         self.canvas = tk.Canvas(main, bg="black", highlightthickness=0)
@@ -50,7 +59,7 @@ class QuestViewer(tk.Tk):
         self.group_chk_frame = ttk.Frame(side)
         self.group_chk_frame.pack(anchor="w", fill="x")
         self.tree = ttk.Treeview(side, show="tree", selectmode="none")
-        self.tree.pack(fill="both", expand=True, pady=(4,0))
+        self.tree.pack(fill="both", expand=True, pady=(4, 0))
         done_font = tkfont.Font(font="TkDefaultFont")
         done_font.configure(overstrike=1)
         self.tree.tag_configure("done", font=done_font)
@@ -58,8 +67,8 @@ class QuestViewer(tk.Tk):
     def _init_state(self):
         self.image_dir = f"{os.getcwd()}/maps"
         self.images: List[str] = []
-        self.orig_im: Image.Image|None = None
-        self.tk_im: ImageTk.PhotoImage|None = None
+        self.orig_im: Image.Image | None = None
+        self.tk_im: ImageTk.PhotoImage | None = None
         self.scale = 1.0
         self.offset_x = self.offset_y = 0
         self.box_groups: Dict[str, list] = {}
