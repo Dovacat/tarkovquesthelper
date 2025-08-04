@@ -34,7 +34,9 @@ class Quests:
 
     def get_file_from_quest(self, quest):
         for name, dir in self.quest_list:
+            print(f"{name}, {quest}")
             if name == quest:
+                print(f"Dir: {dir}")
                 return dir
 
     def get_json_data(self, quest):
@@ -49,3 +51,12 @@ class Quests:
     def get_locations(self, quest):
         data = self.get_json_data(quest)
         return data.get("Locations")
+
+    def get_num_quests(self):
+        return len(self.quest_list)
+
+    def get_num_quests_kappa(self):
+        num = 0
+        for name, dir in self.quest_list:
+            if self.get_json_data(name).get("Kappa"):
+                num += 1

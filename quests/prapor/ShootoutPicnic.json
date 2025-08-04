@@ -1,0 +1,80 @@
+{
+    "QuestName": "Shootout Picnic",
+    "Locations": [
+        "woods"
+    ],
+    "Kappa": true,
+    "LeadsTo": [
+        "Shootout Picnic",
+        "Delivery From the Past"
+    ],
+    "Requirements": {
+        "Level": 0,
+        "Quests": [
+            "Background Check"
+        ]
+    },
+    "Objectives": [
+        {
+            "Required": true,
+            "Location": "woods",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "Elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "Scav",
+            "Amount": 15
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 2000
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.03
+        },
+        {
+            "Name": "Jaeger rep",
+            "Amount": 0.01
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 20000
+        },
+        {
+            "Name": "AKS-74UN",
+            "Amount": 1
+        },
+        {
+            "Name": "AK-74 5.45x39 6L20 30-round magazine",
+            "Amount": 3
+        },
+        {
+            "Name": "5.45x39 PP gs ammo pack (30 rounds)",
+            "Amount": 3
+        },
+        {
+            "Name": "Purchase of PL-15 pistol from Prapor lvl 1",
+            "Amount": 1
+        },
+        {
+            "Name": "Purchase of 6B5-16 Zh-86 Uley from Prapor lvl 2",
+            "Amount": 1
+        },
+        {
+            "Name": "Shooting range duck targets",
+            "Amount": 1
+        }
+    ]
+}

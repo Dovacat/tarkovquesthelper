@@ -1,25 +1,24 @@
 {
-    "QuestName": "Debut",
+    "QuestName": "The Punisher - Part 4",
     "Locations": [
-        "customs",
-        "factory"
+        "any"
     ],
     "Kappa": true,
     "LeadsTo": [
-        "Search Mission",
-        "Luxurious Life"
+        "The Punisher - Part 5",
+        "Kings Of The Rooftops"
     ],
     "Requirements": {
-        "Level": 0,
+        "Level": 20,
         "Quests": [
-            "Shooting Cans"
-        ] 
+            "The Punisher - Part 3"
+        ]
     },
     "Objectives": [
         {
             "ID": 1,
             "Required": true,
-            "Location": "any",
+            "Location": "lighthouse",
             "LocationBoxTopLeft": [
                 0,
                 0
@@ -33,11 +32,31 @@
                 0.0,
                 0.0
             ],
-            "Target": "scav",
-            "Amount": 5
+            "Target": "scavs using an 12ga shotgun",
+            "Amount": 10
         },
         {
             "ID": 2,
+            "Required": true,
+            "Location": "lighthouse",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "PMCs wearing a balaclava and scav vest",
+            "Amount": 10
+        },
+        {
+            "ID": 3,
             "Required": true,
             "Location": "any",
             "LocationBoxTopLeft": [
@@ -48,42 +67,30 @@
                 0,
                 0
             ],
-            "Type": "gather",
+            "Type": "fir",
             "Time": [
                 0.0,
                 0.0
             ],
-            "Target": "MP-133",
-            "Amount": 2
+            "Target": "Bars A-2607 95Kh18 knive",
+            "Amount": 5
         }
     ],
     "Rewards": [
         {
             "Name": "xp",
-            "Amount": 1700
+            "Amount": 18000
         },
         {
             "Name": "Prapor rep",
-            "Amount": 0.02
-        },
-        {
-            "Name": "Jaeger rep",
-            "Amount": 0.01
+            "Amount": 0.03
         },
         {
             "Name": "Roubles",
-            "Amount": 15000
+            "Amount": 100000
         },
         {
-            "Name": "PP-91 Kedr",
-            "Amount": 1
-        },
-        {
-            "Name": "9x18 PM BZhT gzh ammo pack (50 rounds)",
-            "Amount": 2
-        },
-        {
-            "Name": "Purchase AKS-74UB at Prapor lvl 1",
+            "Name": "M4A1 SOPMOD II",
             "Amount": 1
         }
     ]

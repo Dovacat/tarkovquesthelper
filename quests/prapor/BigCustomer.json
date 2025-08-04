@@ -1,0 +1,94 @@
+{
+    "QuestName": "Big Customer",
+    "Locations": [
+        "customs"
+    ],
+    "Kappa": false,
+    "LeadsTo": [
+        "Trust Regain",
+        "Loyalty Buyout",
+        "Safe Corridor"
+    ],
+    "Alternatives": [
+        "Chemical - Part 4",
+        "Out Of Curiosity"
+    ],
+    "Requirements": {
+        "Level": 1,
+        "Quests": [
+            "Chemical - Part 3"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "customs",
+            "LocationBoxTopLeft": [
+                19,
+                36
+            ],
+            "LocationBoxBottomRight": [
+                21,
+                44
+            ],
+            "Type": "scout",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "chemical transport",
+            "Amount": 1
+        },
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "customs",
+            "LocationBoxTopLeft": [
+                19,
+                36
+            ],
+            "LocationBoxBottomRight": [
+                21,
+                44
+            ],
+            "Type": "mark",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "chemical transport",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 8100
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.03
+        },
+        {
+            "Name": "Skier rep",
+            "Amount": -0.25
+        },
+        {
+            "Name": "Therapist rep",
+            "Amount": -0.25
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 200000
+        },
+        {
+            "Name": "6B2",
+            "Amount": 1
+        },
+        {
+            "Name": "Ammunition case",
+            "Amount": 2
+        }
+    ]
+}

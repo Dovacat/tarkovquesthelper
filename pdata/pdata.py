@@ -64,3 +64,30 @@ class PlayerData:
         if quest in self.pdata.get("CompletedQuests"):
             self.pdata["CompletedQuests"].remove(quest)
             self.update_json()
+
+    def get_inactive_quests(self):
+        q_list = self.quests.get_quests()
+        completed_quests = self.get_completed_quests()
+        active_quests = self.get_active_quests()
+
+        for quest in completed_quests:
+            if quest in q_list:
+                q_list.remove(quest)
+        
+        for quest in active_quests:
+            if quest in q_list:
+                q_list.remove(quest)
+
+        return q_list
+
+    def get_percent_completed_quests(self):
+        pass
+
+    def get_percent_completed_kappa(self):
+        pass
+
+    def get_needed_items(self):
+        pass
+
+    def set_objective_completed(self, quest, objectiveID):
+        pass

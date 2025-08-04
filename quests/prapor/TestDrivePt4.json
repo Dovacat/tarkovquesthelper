@@ -1,63 +1,63 @@
 {
-    "QuestName": "Background Check",
+    "QuestName": "Test Drive - Part 4",
     "Locations": [
-        "customs"
+        "shoreline"
     ],
     "Kappa": true,
-    "LeadsTo": [
-        "Shootout Picnic",
-        "Delivery From the Past"
-    ],
     "Requirements": {
-        "Level": 2,
+        "Level": 40,
         "Quests": [
-            "Luxurious Life"
-        ],
-        "Items": [
-            "Machinery Key"
+            "Test Drive - Part 3"
         ]
     },
+    "LeadsTo": [
+        "Test Drive - Part 5"
+    ],
     "Objectives": [
         {
             "ID": 1,
             "Required": true,
-            "Location": "customs",
+            "Location": "shoreline",
             "LocationBoxTopLeft": [
-                55,
-                48
+                0,
+                0
             ],
             "LocationBoxBottomRight": [
-                57,
-                52
+                0,
+                0
             ],
-            "Type": "fetch",
+            "Type": "eliminate",
             "Time": [
                 0.0,
                 0.0
             ],
-            "Target": "Bronze Pocket Watch",
-            "Amount": 1
+            "Target": "any targets using the specified RPDN",
+            "Amount": 30
         }
     ],
     "Rewards": [
         {
             "Name": "xp",
-            "Amount": 1800
+            "Amount": 40000
         },
         {
             "Name": "Prapor rep",
-            "Amount": 0.03
+            "Amount": 0.02
         },
         {
             "Name": "Roubles",
-            "Amount": 15000
+            "Amount": 460000
         },
         {
-            "Name": "SKS carbine",
+            "Name": "AVT-40",
             "Amount": 1
         },
         {
-            "Name": "7.62x39 FMJ ammo pack (20 rounds)",
+            "Name": "AVT-40 15 round magazine",
+            "Amount": 2
+        },
+        {
+            "Name": "7.62x54 R SNB gzh ammo pack (20 rounds)",
             "Amount": 3
         }
     ]

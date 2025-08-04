@@ -1,45 +1,45 @@
 {
-    "QuestName": "Debut",
+    "QuestName": "Postman Pat - Part 1",
     "Locations": [
-        "customs",
         "factory"
     ],
     "Kappa": true,
     "LeadsTo": [
-        "Search Mission",
-        "Luxurious Life"
+        "Postman Pat - Part 2",
+        "You've Got Mail",
+        "Possessor"
     ],
     "Requirements": {
-        "Level": 0,
+        "Level": 10,
         "Quests": [
-            "Shooting Cans"
-        ] 
+            "Ice Cream Cones"
+        ]
     },
     "Objectives": [
         {
             "ID": 1,
             "Required": true,
-            "Location": "any",
+            "Location": "factory",
             "LocationBoxTopLeft": [
-                0,
-                0
+                56,
+                47
             ],
             "LocationBoxBottomRight": [
-                0,
-                0
+                58,
+                49
             ],
-            "Type": "elimination",
+            "Type": "fetch",
             "Time": [
                 0.0,
                 0.0
             ],
-            "Target": "scav",
-            "Amount": 5
+            "Target": "letter",
+            "Amount": 1
         },
         {
             "ID": 2,
             "Required": true,
-            "Location": "any",
+            "Location": "factory",
             "LocationBoxTopLeft": [
                 0,
                 0
@@ -48,42 +48,34 @@
                 0,
                 0
             ],
-            "Type": "gather",
+            "Type": "survive",
             "Time": [
                 0.0,
                 0.0
             ],
-            "Target": "MP-133",
-            "Amount": 2
+            "Target": "Factory Raid",
+            "Amount": 1
         }
     ],
     "Rewards": [
         {
             "Name": "xp",
-            "Amount": 1700
+            "Amount": 5900
         },
         {
             "Name": "Prapor rep",
             "Amount": 0.02
         },
         {
-            "Name": "Jaeger rep",
-            "Amount": 0.01
-        },
-        {
             "Name": "Roubles",
-            "Amount": 15000
+            "Amount": 40000
         },
         {
-            "Name": "PP-91 Kedr",
+            "Name": "Beta 2 backpack",
             "Amount": 1
         },
         {
-            "Name": "9x18 PM BZhT gzh ammo pack (50 rounds)",
-            "Amount": 2
-        },
-        {
-            "Name": "Purchase AKS-74UB at Prapor lvl 1",
+            "Name": "6B2 body armor",
             "Amount": 1
         }
     ]

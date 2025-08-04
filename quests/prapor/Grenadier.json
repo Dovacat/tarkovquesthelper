@@ -1,0 +1,74 @@
+{
+    "QuestName": "Grenadier",
+    "Locations": [
+        "any"
+    ],
+    "Kappa": true,
+    "LeadsTo": [
+        "Test Drive - Part 1",
+        "The Art Of Explosion"
+    ],
+    "Requirements": {
+        "Level": 20
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "PMCs with grenades",
+            "Amount": 8
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 18000
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 75000
+        },
+        {
+            "Name": "12.7x55mm PS12B ammo pack (10 rounds)",
+            "Amount": 10
+        },
+        {
+            "Name": "F-1 grenade",
+            "Amount": 5
+        },
+        {
+            "Name": "VOG-17 grenade",
+            "Amount": 5
+        },
+        {
+            "Name": "VOG-25 grenade",
+            "Amount": 5
+        },
+        {
+            "Name": "RGN grenade",
+            "Amount": 2
+        },
+        {
+            "Name": "craft for VOG-17 grenade at workbench level 2",
+            "Amount": 1
+        }
+    ]
+}

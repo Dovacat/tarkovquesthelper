@@ -292,19 +292,24 @@ class QuestViewer(tk.Tk):
 
         if objective[1].get("Type") == "elimination":
             description = description + "Eliminate "
-        elif objective[1].get("Type") == "fetch" or "gather":
+        elif objective[1].get("Type") == "fetch" or objective[1].get("Type") == "gather":
             description = description + "Find "
+        elif objective[1].get("Type") == "fir":
+            description = description + "Find in raid "
         elif objective[1].get("Type") == "scout":
             description = description + "Go to "
         elif objective[1].get("Type") == "stash":
             description = description + "Place "
+        elif objective[1].get("Type") == "survive":
+            description = description + "Extract from "
+        elif objective[1].get("Type") == "rep":
+            description = description + "Attain a reputation level of "
         if objective[1].get("Amount") > 0:
             description = description + f"{objective[1].get('Amount')} "
 
-        if objective[1].get("Amount") > 1:
-            description = description + f"{objective[1].get('Target')}s"
-        else:
-            description = description + f"{objective[1].get('Target')}"
+        if objective[1].get("Type") == "rep":
+            description = description + "with "
+        description = description + f"{objective[1].get('Target')}"
 
         if objective[1].get("Time")[0] != objective[1].get("Time")[1]:
             description = (

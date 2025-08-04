@@ -1,0 +1,181 @@
+{
+    "QuestName": "Perfect Mediator",
+    "Locations": [
+        "any"
+    ],
+    "Kappa": true,
+    "Requirements": {
+        "Level": 35,
+        "Quests": [
+            "Shaking Up The Teller"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "rep",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "Ragman",
+            "Amount": 4
+        },
+        {
+            "ID": 2,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "rep",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "Skier",
+            "Amount": 4
+        },
+        {
+            "ID": 3,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "rep",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "Mechanic",
+            "Amount": 4
+        },
+        {
+            "ID": 4,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "rep",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "Peacekeeper",
+            "Amount": 4
+        },
+        {
+            "ID": 5,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "rep",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "Prapor",
+            "Amount": 4
+        },
+        {
+            "ID": 6,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "rep",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "Therapist",
+            "Amount": 4
+        },
+        {
+            "ID": 7,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "rep",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "Jaeger",
+            "Amount": 4
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 20900
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 55000
+        },
+        {
+            "Name": "THICC weapons case",
+            "Amount": 1
+        },
+        {
+            "Name": "purchase of SR-3M from prapor lvl 4",
+            "Amount": 3
+        },
+        {
+            "Name": "Zarya stun grenade",
+            "Amount": 1
+        }
+    ]
+}

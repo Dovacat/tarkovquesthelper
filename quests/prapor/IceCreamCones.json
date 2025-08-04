@@ -1,0 +1,105 @@
+{
+    "QuestName": "Ice Cream Cones",
+    "Locations": [
+        "any"
+    ],
+    "Kappa": true,
+    "LeadsTo": [
+        "Postman Pat - Part 1",
+        "Shaking Up The Teller"
+    ],
+    "Requirements": {
+        "Level": 9,
+        "Quests": [
+            "Bad Rep Evidence"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "fir",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "AK-74 5.45x39 6L31 60 round magazines",
+            "Amount": 3
+        },
+        {
+            "ID": 2,
+            "Required": false,
+            "Location": "customs",
+            "LocationBoxTopLeft": [
+                17,
+                25
+            ],
+            "LocationBoxBottomRight": [
+                19,
+                26
+            ],
+            "Type": "gather",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "Dorm Room 220 key",
+            "Amount": 1
+        },
+        {
+            "ID": 3,
+            "Required": false,
+            "Location": "woods",
+            "LocationBoxTopLeft": [
+                16,
+                70
+            ],
+            "LocationBoxBottomRight": [
+                17,
+                71
+            ],
+            "Type": "scout",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "Locked Bunker",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 5200
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 17000
+        },
+        {
+            "Name": "RPK-16",
+            "Amount": 1
+        },
+        {
+            "Name": "5.45x39mm PP gs ammo pack (120 rounds)",
+            "Amount": 2
+        },
+        {
+            "Name": "barter for AK-74 5.45x39 6L31 60-round magazine at Prapor lvl 2",
+            "Amount": 1
+        }
+    ]
+}

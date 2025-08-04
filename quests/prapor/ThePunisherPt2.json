@@ -1,25 +1,23 @@
 {
-    "QuestName": "Debut",
+    "QuestName": "The Punisher - Part 2",
     "Locations": [
-        "customs",
-        "factory"
+        "any"
     ],
     "Kappa": true,
     "LeadsTo": [
-        "Search Mission",
-        "Luxurious Life"
+        "The Punisher - Part 2"
     ],
     "Requirements": {
-        "Level": 0,
+        "Level": 18,
         "Quests": [
-            "Shooting Cans"
-        ] 
+            "The Punisher - Part 1"
+        ]
     },
     "Objectives": [
         {
             "ID": 1,
             "Required": true,
-            "Location": "any",
+            "Location": "reserve",
             "LocationBoxTopLeft": [
                 0,
                 0
@@ -33,11 +31,11 @@
                 0.0,
                 0.0
             ],
-            "Target": "scav",
-            "Amount": 5
+            "Target": "scavs using a suppressed weapon",
+            "Amount": 12
         },
         {
-            "ID": 2,
+            "ID": 1,
             "Required": true,
             "Location": "any",
             "LocationBoxTopLeft": [
@@ -53,38 +51,30 @@
                 0.0,
                 0.0
             ],
-            "Target": "MP-133",
-            "Amount": 2
+            "Target": "lower half masks",
+            "Amount": 7
         }
     ],
     "Rewards": [
         {
             "Name": "xp",
-            "Amount": 1700
+            "Amount": 13100
         },
         {
             "Name": "Prapor rep",
-            "Amount": 0.02
-        },
-        {
-            "Name": "Jaeger rep",
-            "Amount": 0.01
+            "Amount": 0.03
         },
         {
             "Name": "Roubles",
-            "Amount": 15000
+            "Amount": 50000
         },
         {
-            "Name": "PP-91 Kedr",
+            "Name": "AK-104",
             "Amount": 1
         },
         {
-            "Name": "9x18 PM BZhT gzh ammo pack (50 rounds)",
+            "Name": "military cable",
             "Amount": 2
-        },
-        {
-            "Name": "Purchase AKS-74UB at Prapor lvl 1",
-            "Amount": 1
         }
     ]
 }

@@ -88,11 +88,19 @@ Fetch if the player is required to gather a quest specific item from the map
 
 Gather if the player is required to hand over specific regular loot
 
+FIR if the player is required to find specific loot in raid
+
 Scout if the player is required to go to a specific area
 
 Stash if the player must place an item on the map (includes marker quests)
 
 Skill if the player is required to be a certain level in a skill to complete the quest
+
+Survive if the player must successfully extract from a location
+
+Mark if the player has to place a marker at a location
+
+Rep if the player has to reach a specific rep level with a trader
 
 ### Time
 #### Type:

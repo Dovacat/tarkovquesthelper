@@ -1,0 +1,72 @@
+{
+    "QuestName": "Test Drive - Part 2",
+    "Locations": [
+        "streets"
+    ],
+    "Kappa": true,
+    "Requirements": {
+        "Level": 30,
+        "Quests": [
+            "Test Drive - Part 1"
+        ]
+    },
+    "LeadsTo": [
+        "Test Drive - Part 3"
+    ],
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "streets",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "eliminate",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "PMCs using the specified SR-2M",
+            "Amount": 20
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 28000
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 300000
+        },
+        {
+            "Name": "ASh-12",
+            "Amount": 1
+        },
+        {
+            "Name": "ASh-12 20 round magazine",
+            "Amount": 3
+        },
+        {
+            "Name": "12.7x55 PS12B ammo pack (10 rounds)",
+            "Amount": 6
+        },
+        {
+            "Name": "golden neck chain",
+            "Amount": 3
+        },
+        {
+            "Name": "purchase of 9x21mm BT gzh at prapor level 3",
+            "Amount": 1
+        }
+    ]
+}

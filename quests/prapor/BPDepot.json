@@ -1,0 +1,146 @@
+{
+    "QuestName": "BP Depot",
+    "Locations": [
+        "customs"
+    ],
+    "Kappa": true,
+    "LeadsTo": [
+        "Bad Rep Evidence",
+        "The Bunker - Part 1",
+        "Bella and Strelka"
+    ],
+    "Requirements": {
+        "Level": 5,
+        "Quests": [
+            "Delivery From The Past"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "customs",
+            "LocationBoxTopLeft": [
+                24,
+                53
+            ],
+            "LocationBoxBottomRight": [
+                25,
+                55
+            ],
+            "Type": "stash",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "MS2000 Marker",
+            "Amount": 1
+        },
+        {
+            "ID": 2,
+            "Required": true,
+            "Location": "customs",
+            "LocationBoxTopLeft": [
+                55,
+                48
+            ],
+            "LocationBoxBottomRight": [
+                57,
+                52
+            ],
+            "Type": "stash",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "MS2000 Marker",
+            "Amount": 1
+        },
+        {
+            "ID": 3,
+            "Required": true,
+            "Location": "customs",
+            "LocationBoxTopLeft": [
+                33,
+                15
+            ],
+            "LocationBoxBottomRight": [
+                34,
+                17
+            ],
+            "Type": "stash",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "MS2000 Marker",
+            "Amount": 1
+        },
+        {
+            "ID": 4,
+            "Required": true,
+            "Location": "customs",
+            "LocationBoxTopLeft": [
+                96,
+                20
+            ],
+            "LocationBoxBottomRight": [
+                98,
+                23
+            ],
+            "Type": "stash",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "MS2000 Marker",
+            "Amount": 1
+        },
+        {
+            "ID": 5,
+            "Required": true,
+            "Location": "customs",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "survive",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "Customs raid",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 2800
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.03
+        },
+        {
+            "Name": "Jaeger rep",
+            "Amount": -0.01
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 30000
+        },
+        {
+            "Name": "Expeditionary Fuel Tank",
+            "Amount": 2
+        },
+        {
+            "Name": "Purchase of PP-9 Klin from Prapor lvl 1",
+            "Amount": 1
+        }
+    ]
+}

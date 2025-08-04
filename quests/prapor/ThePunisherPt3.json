@@ -1,0 +1,64 @@
+{
+    "QuestName": "The Punisher - Part 3",
+    "Locations": [
+        "customs"
+    ],
+    "Kappa": true,
+    "LeadsTo": [
+        "The Punisher - Part 4"
+    ],
+    "Requirements": {
+        "Level": 19,
+        "Quests": [
+            "The Punisher - Part 2"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "reserve",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "scavs using an AKS-74U",
+            "Amount": 25
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 11700
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.04
+        },
+        {
+            "Name": "Skier rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "Dollars",
+            "Amount": 2500
+        },
+        {
+            "Name": "DVL-10",
+            "Amount": 1
+        },
+        {
+            "Name": "craft for 5.45x39mm PP gs at Workbench lvl 2",
+            "Amount": 1
+        }
+    ]
+}

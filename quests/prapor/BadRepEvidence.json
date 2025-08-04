@@ -1,0 +1,132 @@
+{
+    "QuestName": "Bad Rep Evidence",
+    "Locations": [
+        "any"
+    ],
+    "Kappa": true,
+    "LeadsTo": [
+        "Ice Cream Cones"
+    ],
+    "Requirements": {
+        "Level": 6,
+        "Quests": [
+            "BP Depot"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "customs",
+            "LocationBoxTopLeft": [
+                46,
+                53
+            ],
+            "LocationBoxBottomRight": [
+                47,
+                54
+            ],
+            "Type": "fetch",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "Secure Folder 0031",
+            "Amount": 1
+        },
+        {
+            "ID": 2,
+            "Required": false,
+            "Location": "factory",
+            "LocationBoxTopLeft": [
+                5,
+                28
+            ],
+            "LocationBoxBottomRight": [
+                6,
+                30
+            ],
+            "Type": "scout",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "locked room",
+            "Amount": 1
+        },
+        {
+            "ID": 3,
+            "Required": false,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "gather",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "Portable bunkhouse key",
+            "Amount": 1
+        },
+        {
+            "ID": 4,
+            "Required": true,
+            "Location": "customs",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "survive",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "Customs raid",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 4100
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.03
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 35000
+        },
+        {
+            "Name": "PP-91-01 Kedr-B",
+            "Amount": 1
+        },
+        {
+            "Name": "PP-91 Kedr 30-round magazine",
+            "Amount": 1
+        },
+        {
+            "Name": "9x18mm PM PS gs PPO ammo pack (50 rounds)",
+            "Amount": 3
+        },
+        {
+            "Name": "Purchase of BelOMO PSO-1M2-1 4x24 scope at Prapor lvl 2",
+            "Amount": 1
+        },
+        {
+            "Name": "Purchase of SSSh-94 SFERA-S helmet at Prapor lvl 1",
+            "Amount": 1
+        }
+    ]
+}
