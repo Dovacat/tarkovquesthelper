@@ -292,7 +292,9 @@ class QuestViewer(tk.Tk):
 
         if objective[1].get("Type") == "elimination":
             description = description + "Eliminate "
-        elif objective[1].get("Type") == "fetch" or objective[1].get("Type") == "gather":
+        elif (
+            objective[1].get("Type") == "fetch" or objective[1].get("Type") == "gather"
+        ):
             description = description + "Find "
         elif objective[1].get("Type") == "fir":
             description = description + "Find in raid "

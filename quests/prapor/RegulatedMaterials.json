@@ -1,0 +1,77 @@
+{
+    "QuestName": "Regulated Materials",
+    "Locations": [
+        "any"
+    ],
+    "Kappa": true,
+    "Requirements": {
+        "Level": 25,
+        "Quests": [
+            "Polikhim Hobo"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "fir",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "tank battery",
+            "Amount": 1
+        },
+        {
+            "ID": 2,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "fir",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "OFZ",
+            "Amount": 5
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 14800
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 150000
+        },
+        {
+            "Name": "12.7x55mm PS12B ammo pack (10 rounds)",
+            "Amount": 10
+        },
+        {
+            "Name": "barter for ASh-12 12.7x55 assault rifle at Prapor level 4",
+            "Amount": 1
+        }
+    ]
+}

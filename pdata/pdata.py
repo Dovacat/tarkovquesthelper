@@ -73,7 +73,7 @@ class PlayerData:
         for quest in completed_quests:
             if quest in q_list:
                 q_list.remove(quest)
-        
+
         for quest in active_quests:
             if quest in q_list:
                 q_list.remove(quest)
