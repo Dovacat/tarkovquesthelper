@@ -1,0 +1,84 @@
+{
+    "QuestName": "Properties All Around",
+    "Locations": [
+        "streets"
+    ],
+    "Kappa": false,
+    "Requirements": {
+        "Level": 1,
+        "Quests": [
+            "Glory To CPSU - Part 2"
+        ],
+        "Items": [
+            "Real estate agency office room key"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "streets",
+            "LocationBoxTopLeft": [
+                589,
+                827
+            ],
+            "LocationBoxBottomRight": [
+                604,
+                837
+            ],
+            "Type": "scout",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "the real estate fund",
+            "Amount": 0
+        },
+        {
+            "ID": 2,
+            "Required": true,
+            "Location": "streets",
+            "LocationBoxTopLeft": [
+                589,
+                827
+            ],
+            "LocationBoxBottomRight": [
+                604,
+                837
+            ],
+            "Type": "find",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "real estate transactions document",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 11600
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "roubles",
+            "Amount": 80000
+        },
+        {
+            "Name": "SR-2M",
+            "Amount": 1
+        },
+        {
+            "Name": "SR-2M 30 round magazine",
+            "Amount": 3
+        },
+        {
+            "Name": "9x21 PS gzh ammo pack (30 rounds)",
+            "Amount": 4
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "QuestName": "Luxurious Life",
+    "Locations": [
+        "ground_zero"
+    ],
+    "Kappa": true,
+    "LeadsTo": [
+        "Background Check"
+    ],
+    "Requirements": {
+        "Level": 1,
+        "Quests": [
+            "Debut"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "ground_zero",
+            "LocationBoxTopLeft": [
+                302,
+                292
+            ],
+            "LocationBoxBottomRight": [
+                345,
+                315
+            ],
+            "Type": "scout",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "the liqua sto",
+            "Amount": 0
+        },
+        {
+            "ID": 2,
+            "Required": true,
+            "Location": "ground_zero",
+            "LocationBoxTopLeft": [
+                302,
+                292
+            ],
+            "LocationBoxBottomRight": [
+                345,
+                315
+            ],
+            "Type": "find",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "wine bottle",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 1750
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.01
+        },
+        {
+            "Name": "roubles",
+            "Amount": 14000
+        },
+        {
+            "Name": "VPO-136 Vepr-KM 7.62x39",
+            "Amount": 1
+        },
+        {
+            "Name": "7.62x39 FMJ ammo pack (20 rounds)",
+            "Amount": 5
+        },
+        {
+            "Name": "AK 7.62x39 30 round magazine",
+            "Amount": 3
+        }
+    ]
+}

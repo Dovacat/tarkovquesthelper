@@ -1,0 +1,80 @@
+{
+    "QuestName": "Half Empty",
+    "Locations": [
+        "any"
+    ],
+    "Kappa": false,
+    "LeadsTo": [
+        "Stick In The Wheel"
+    ],
+    "Requirements": {
+        "Level": 1,
+        "Quests": [
+            "Forge A Friendship"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "fir",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "military electronics items",
+            "Amount": 5
+        },
+        {
+            "ID": 2,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "fir",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "computer component items",
+            "Amount": 10
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 14900
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 123000
+        },
+        {
+            "Name": "Altyn helmet",
+            "Amount": 2
+        },
+        {
+            "Name": "Altyn face shield",
+            "Amount": 2
+        }
+    ]
+}

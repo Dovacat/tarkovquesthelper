@@ -102,6 +102,10 @@ Mark if the player has to place a marker at a location
 
 Rep if the player has to reach a specific rep level with a trader
 
+Transit if the player must transit to a different map
+
+Modify if the player must modify a gun or other item to a required spec
+
 ### Time
 #### Type:
 Integer Array

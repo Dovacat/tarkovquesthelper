@@ -1,0 +1,64 @@
+{
+    "QuestName": "Stick In The Wheel",
+    "Locations": [
+        "any"
+    ],
+    "Kappa": false,
+    "LeadsTo": [
+        "Battery Change"
+    ],
+    "Requirements": {
+        "Level": 1,
+        "Quests": [
+            "Half Empty"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "targets",
+            "Amount": 30
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 21500
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.03
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 112000
+        },
+        {
+            "Name": "AS VAL",
+            "Amount": 1
+        },
+        {
+            "Name": "VSS/VAL 20 round magazine",
+            "Amount": 3
+        },
+        {
+            "Name": "9x39 PAB-9 ammo pack (20 rounds)",
+            "Amount": 4
+        }
+    ]
+}

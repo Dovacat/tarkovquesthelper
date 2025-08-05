@@ -40,12 +40,12 @@
             "Required": false,
             "Location": "customs",
             "LocationBoxTopLeft": [
-                17,
-                25
+                0,
+                0
             ],
             "LocationBoxBottomRight": [
-                19,
-                26
+                0,
+                0
             ],
             "Type": "gather",
             "Time": [
@@ -60,20 +60,20 @@
             "Required": false,
             "Location": "woods",
             "LocationBoxTopLeft": [
-                16,
-                70
+                158,
+                699
             ],
             "LocationBoxBottomRight": [
-                17,
-                71
+                173,
+                711
             ],
             "Type": "scout",
             "Time": [
                 0.0,
                 0.0
             ],
-            "Target": "Locked Bunker",
-            "Amount": 1
+            "Target": "the locked bunker (ZB-014)",
+            "Amount": 0
         }
     ],
     "Rewards": [
@@ -94,7 +94,7 @@
             "Amount": 1
         },
         {
-            "Name": "5.45x39mm PP gs ammo pack (120 rounds)",
+            "Name": "5.45x39 PP gs ammo pack (120 rounds)",
             "Amount": 2
         },
         {

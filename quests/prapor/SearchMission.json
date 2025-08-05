@@ -1,0 +1,101 @@
+{
+    "QuestName": "Search Mission",
+    "Locations": [
+        "woods"
+    ],
+    "Kappa": true,
+    "Requirements": {
+        "Level": 5,
+        "Quests": [
+            "Debut"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "woods",
+            "LocationBoxTopLeft": [
+                324,
+                232
+            ],
+            "LocationBoxBottomRight": [
+                338,
+                252
+            ],
+            "Type": "scout",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "the missing convoy",
+            "Amount": 0
+        },
+        {
+            "ID": 2,
+            "Required": true,
+            "Location": "woods",
+            "LocationBoxTopLeft": [
+                252,
+                330
+            ],
+            "LocationBoxBottomRight": [
+                281,
+                364
+            ],
+            "Type": "scout",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "the USEC camp",
+            "Amount": 0
+        },
+        {
+            "ID": 3,
+            "Required": true,
+            "Location": "woods",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "survive",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "woods raid",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 2800
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 22000
+        },
+        {
+            "Name": "EYE MK2 compass",
+            "Amount": 1
+        },
+        {
+            "Name": "woods map",
+            "Amount": 1
+        },
+        {
+            "Name": "purchase of NPP KlASS from prapor lvl 1",
+            "Amount": 1
+        }
+    ]
+}

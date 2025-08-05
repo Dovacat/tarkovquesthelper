@@ -1,0 +1,100 @@
+{
+    "QuestName": "Viewer",
+    "Locations": [
+        "any"
+    ],
+    "Kappa": true,
+    "LeadsTo": [
+        "Serious Allegations"
+    ],
+    "Requirements": {
+        "Level": 1,
+        "Quests": [
+            "Minute Of Fame"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "woods",
+            "LocationBoxTopLeft": [
+                617,
+                502
+            ],
+            "LocationBoxBottomRight": [
+                625,
+                506
+            ],
+            "Type": "stash",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "wifi camera",
+            "Amount": 1
+        },
+        {
+            "ID": 2,
+            "Required": true,
+            "Location": "shoreline",
+            "LocationBoxTopLeft": [
+                501,
+                953
+            ],
+            "LocationBoxBottomRight": [
+                509,
+                964
+            ],
+            "Type": "stash",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "wifi camera",
+            "Amount": 1
+        },
+        {
+            "ID": 3,
+            "Required": true,
+            "Location": "factory",
+            "LocationBoxTopLeft": [
+                60,
+                265
+            ],
+            "LocationBoxBottomRight": [
+                65,
+                278
+            ],
+            "Type": "stash",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "wifi camera",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 74000
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "roubles",
+            "Amount": 172000
+        },
+        {
+            "Name": "Pevko light beer",
+            "Amount": 5
+        },
+        {
+            "Name": "Vodka",
+            "Amount": 5
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "QuestName": "Glory To CPSU - Part 1",
+    "Locations": [
+        "streets"
+    ],
+    "Kappa": false,
+    "LeadsTo": [
+        "Glory To CPSU - Part 2"
+    ],
+    "Requirements": {
+        "Level": 15,
+        "Quests": [
+            "You've Got Mail"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "streets",
+            "LocationBoxTopLeft": [
+                423,
+                557
+            ],
+            "LocationBoxBottomRight": [
+                478,
+                605
+            ],
+            "Type": "scout",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "the apartment",
+            "Amount": 0
+        },
+        {
+            "ID": 2,
+            "Required": true,
+            "Location": "streets",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "survive",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "streets raid",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 7300
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "roubles",
+            "Amount": 42000
+        },
+        {
+            "Name": "Vodka",
+            "Amount": 2
+        }
+    ]
+}

@@ -1,0 +1,141 @@
+{
+    "QuestName": "Special Comms",
+    "Locations": [
+        "any"
+    ],
+    "Kappa": true,
+    "Requirements": {
+        "Level": 1,
+        "Quests": [
+            "Documents"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "woods",
+            "LocationBoxTopLeft": [
+                546,
+                939
+            ],
+            "LocationBoxBottomRight": [
+                550,
+                945
+            ],
+            "Type": "stash",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "military cables",
+            "Amount": 2
+        },
+        {
+            "ID": 2,
+            "Required": true,
+            "Location": "woods",
+            "LocationBoxTopLeft": [
+                546,
+                939
+            ],
+            "LocationBoxBottomRight": [
+                550,
+                945
+            ],
+            "Type": "stash",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "Bulbex cable cutter",
+            "Amount": 2
+        },
+        {
+            "ID": 3,
+            "Required": true,
+            "Location": "woods",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "transition",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "Reserve",
+            "Amount": 0
+        },
+        {
+            "ID": 4,
+            "Required": true,
+            "Location": "reserve",
+            "LocationBoxTopLeft": [
+                259,
+                208
+            ],
+            "LocationBoxBottomRight": [
+                267,
+                222
+            ],
+            "Type": "stash",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "military cables",
+            "Amount": 2
+        },
+        {
+            "ID": 5,
+            "Required": true,
+            "Location": "reserve",
+            "LocationBoxTopLeft": [
+                259,
+                208
+            ],
+            "LocationBoxBottomRight": [
+                267,
+                222
+            ],
+            "Type": "stash",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "Bulbex cable cutter",
+            "Amount": 2
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 12800
+        },
+        {
+            "Name": "Mechanic rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "roubles",
+            "Amount": 32000
+        },
+        {
+            "Name": "DVL-10",
+            "Amount": 1
+        },
+        {
+            "Name": "DVL-10 10 round magazine",
+            "Amount": 3
+        },
+        {
+            "Name": "7.62x51 BCP FMJ ammo pack (20 rounds)",
+            "Amount": 3
+        }
+    ]
+}

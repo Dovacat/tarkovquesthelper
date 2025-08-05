@@ -20,12 +20,12 @@
             "Required": true,
             "Location": "customs",
             "LocationBoxTopLeft": [
-                84,
-                29
+                892,
+                644
             ],
             "LocationBoxBottomRight": [
-                85,
-                34
+                906,
+                680
             ],
             "Type": "fetch",
             "Time": [
@@ -40,12 +40,12 @@
             "Required": true,
             "Location": "factory",
             "LocationBoxTopLeft": [
-                29,
-                24
+                294,
+                237
             ],
             "LocationBoxBottomRight": [
-                30,
-                26
+                299,
+                264
             ],
             "Type": "stash",
             "Time": [
@@ -78,11 +78,11 @@
             "Amount": 4
         },
         {
-            "Name": "8.5mm Magnum buckshot ammo pack (25 rounds)",
+            "Name": "Magnum buckshot ammo pack (25 rounds)",
             "Amount": 2
         },
         {
-            "Name": "Purchase of 5.45x39mm FMJ from Prapor lvl 2",
+            "Name": "Purchase of 5.45x39 FMJ from Prapor lvl 2",
             "Amount": 1
         }
     ]

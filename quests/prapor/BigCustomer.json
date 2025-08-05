@@ -25,40 +25,40 @@
             "Required": true,
             "Location": "customs",
             "LocationBoxTopLeft": [
-                19,
-                36
+                189,
+                370
             ],
             "LocationBoxBottomRight": [
-                21,
-                44
+                194,
+                385
             ],
             "Type": "scout",
             "Time": [
                 0.0,
                 0.0
             ],
-            "Target": "chemical transport",
-            "Amount": 1
+            "Target": "the chemical transport",
+            "Amount": 0
         },
         {
-            "ID": 1,
+            "ID": 2,
             "Required": true,
             "Location": "customs",
             "LocationBoxTopLeft": [
-                19,
-                36
+                189,
+                370
             ],
             "LocationBoxBottomRight": [
-                21,
-                44
+                194,
+                385
             ],
             "Type": "mark",
             "Time": [
                 0.0,
                 0.0
             ],
-            "Target": "chemical transport",
-            "Amount": 1
+            "Target": "the chemical transport",
+            "Amount": 0
         }
     ],
     "Rewards": [

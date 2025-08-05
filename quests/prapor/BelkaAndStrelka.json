@@ -1,0 +1,56 @@
+{
+    "QuestName": "Bella And Strelka",
+    "Locations": [
+        "customs"
+    ],
+    "Kappa": true,
+    "Requirements": {
+        "Level": 1,
+        "Quests": [
+            "BP Depot"
+        ],
+        "Items": [
+            "Green signal flare"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "customs",
+            "LocationBoxTopLeft": [
+                443,
+                2
+            ],
+            "LocationBoxBottomRight": [
+                480,
+                82
+            ],
+            "Type": "survive",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "customs raid through the railroad passage",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 8200
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.01
+        },
+        {
+            "Name": "roubles",
+            "Amount": 44000
+        },
+        {
+            "Name": "RGD-5 hand grenade",
+            "Amount": 1
+        }
+    ]
+}

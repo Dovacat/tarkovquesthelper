@@ -13,6 +13,9 @@ class PlayerData:
         self.quests = q.Quests()
         self.pdata = self.load_data()
 
+        # Run some checks
+        self.quests.check_ID_nums()
+
     def load_data(self):
         with open("./pdata/pdata.json", "r") as f:
             return json.load(f)

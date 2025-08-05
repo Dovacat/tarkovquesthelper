@@ -23,12 +23,12 @@
             "Required": true,
             "Location": "customs",
             "LocationBoxTopLeft": [
-                55,
-                48
+                555,
+                481
             ],
             "LocationBoxBottomRight": [
-                57,
-                52
+                561,
+                505
             ],
             "Type": "fetch",
             "Time": [

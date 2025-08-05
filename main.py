@@ -12,7 +12,7 @@ from PIL import Image, ImageTk
 
 
 IMAGE_EXTS = (".png", ".jpg")
-GRID_DIVISIONS = 100
+GRID_DIVISIONS = 1000
 
 STATUS_COLORS = {
     "inactive": "#808080",
@@ -143,7 +143,7 @@ class QuestViewer(tk.Tk):
         self.canvas.create_image(
             self.offset_x, self.offset_y, anchor="nw", image=self.tk_im
         )
-        self._draw_grid(*disp)
+        #self._draw_grid(*disp)
         self.redraw_boxes()
 
     def _draw_grid(self, w: int, h: int):
@@ -201,7 +201,7 @@ class QuestViewer(tk.Tk):
         cw = self.orig_im.width / GRID_DIVISIONS
         ch = self.orig_im.height / GRID_DIVISIONS
         gx, gy = round(imgx / cw), round(imgy / ch)
-        print(f"({gx}, {gy})")
+        print(f"({gx}, {gy})") #Print grid coordinates for box placement
 
     def open_group_manager(self):
         if hasattr(self, "_mgr_win") and self._mgr_win.winfo_exists():
@@ -306,6 +306,11 @@ class QuestViewer(tk.Tk):
             description = description + "Extract from "
         elif objective[1].get("Type") == "rep":
             description = description + "Attain a reputation level of "
+        elif objective[1].get("Type") == "transit":
+            description = description + "Transit to "
+        elif objective[1].get("Type") == "mark":
+            description = description + "Mark "
+
         if objective[1].get("Amount") > 0:
             description = description + f"{objective[1].get('Amount')} "
 

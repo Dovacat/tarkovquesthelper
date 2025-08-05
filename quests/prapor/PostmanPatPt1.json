@@ -21,12 +21,12 @@
             "Required": true,
             "Location": "factory",
             "LocationBoxTopLeft": [
-                56,
-                47
+                566,
+                470
             ],
             "LocationBoxBottomRight": [
-                58,
-                49
+                574,
+                489
             ],
             "Type": "fetch",
             "Time": [

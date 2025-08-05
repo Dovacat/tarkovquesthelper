@@ -34,9 +34,7 @@ class Quests:
 
     def get_file_from_quest(self, quest):
         for name, dir in self.quest_list:
-            print(f"{name}, {quest}")
             if name == quest:
-                print(f"Dir: {dir}")
                 return dir
 
     def get_json_data(self, quest):
@@ -60,3 +58,15 @@ class Quests:
         for name, dir in self.quest_list:
             if self.get_json_data(name).get("Kappa"):
                 num += 1
+
+    def check_ID_nums(self):
+        for name, dir in self.quest_list:
+            objectives = self.get_objectives(name)
+            id_nums = []
+            for objective in objectives:
+                num = objective.get("ID")
+                if num in id_nums:
+                    print(f"{name} has duplicate ID number {num}")
+                else:
+                    id_nums.append(num)
+

@@ -21,80 +21,80 @@
             "Required": true,
             "Location": "customs",
             "LocationBoxTopLeft": [
-                24,
-                53
+                241,
+                531
             ],
             "LocationBoxBottomRight": [
-                25,
-                55
+                246,
+                555
             ],
-            "Type": "stash",
+            "Type": "mark",
             "Time": [
                 0.0,
                 0.0
             ],
-            "Target": "MS2000 Marker",
-            "Amount": 1
+            "Target": "the first tanker truck",
+            "Amount": 0
         },
         {
             "ID": 2,
             "Required": true,
             "Location": "customs",
             "LocationBoxTopLeft": [
-                55,
-                48
+                555,
+                481
             ],
             "LocationBoxBottomRight": [
-                57,
-                52
+                561,
+                505
             ],
-            "Type": "stash",
+            "Type": "mark",
             "Time": [
                 0.0,
                 0.0
             ],
-            "Target": "MS2000 Marker",
-            "Amount": 1
+            "Target": "the second tanker truck",
+            "Amount": 0
         },
         {
             "ID": 3,
             "Required": true,
             "Location": "customs",
             "LocationBoxTopLeft": [
-                33,
-                15
+                327,
+                149
             ],
             "LocationBoxBottomRight": [
-                34,
-                17
+                339,
+                161
             ],
-            "Type": "stash",
+            "Type": "mark",
             "Time": [
                 0.0,
                 0.0
             ],
-            "Target": "MS2000 Marker",
-            "Amount": 1
+            "Target": "the third tanker truck",
+            "Amount": 0
         },
         {
             "ID": 4,
             "Required": true,
             "Location": "customs",
             "LocationBoxTopLeft": [
-                96,
-                20
+                970,
+                200
             ],
             "LocationBoxBottomRight": [
-                98,
-                23
+                976,
+                224
             ],
-            "Type": "stash",
+            "Type": "mark",
             "Time": [
                 0.0,
                 0.0
             ],
-            "Target": "MS2000 Marker",
-            "Amount": 1
+            "Target": "the fourth tanker truck",
+            "Amount": 0
         },
         {
             "ID": 5,

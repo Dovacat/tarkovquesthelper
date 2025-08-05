@@ -1,0 +1,78 @@
+{
+    "QuestName": "Our Land",
+    "Locations": [
+        "any"
+    ],
+    "Kappa": false,
+    "Requirements": {
+        "Faction": "bear",
+        "Level": 30,
+        "Quests": [
+            "The Punisher - Part 5"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "lighthouse",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "USEC PMCs",
+            "Amount": 20
+        },
+        {
+            "ID": 2,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "fir",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "USEC PMC dogtags",
+            "Amount": 20
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 22000
+        },
+        {
+            "Name": "prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "roubles",
+            "Amount": 300000
+        },
+        {
+            "Name": "purchase of 23x75 flashbang round from Prapor level 3",
+            "Amount": 1
+        },
+        {
+            "Name": "KS-23M shotgun",
+            "Amount": 3
+        }
+    ]
+}

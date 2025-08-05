@@ -1,0 +1,108 @@
+{
+    "QuestName": "Glory To CPSU - Part 2",
+    "Locations": [
+        "streets"
+    ],
+    "Kappa": false,
+    "LeadsTo": [
+        "Properties All Around"
+    ],
+    "Requirements": {
+        "Level": 22,
+        "Quests": [
+            "Glory To CPSU - Part 1"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "streets",
+            "LocationBoxTopLeft": [
+                348,
+                402
+            ],
+            "LocationBoxBottomRight": [
+                355,
+                419
+            ],
+            "Type": "scout",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "Prapor's friends work",
+            "Amount": 0
+        },
+        {
+            "ID": 2,
+            "Required": true,
+            "Location": "streets",
+            "LocationBoxTopLeft": [
+                348,
+                402
+            ],
+            "LocationBoxBottomRight": [
+                355,
+                419
+            ],
+            "Type": "find",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "Prapor's friends journal",
+            "Amount": 1
+        },
+        {
+            "ID": 3,
+            "Required": true,
+            "Location": "streets",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "survive",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "streets raid",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 10100
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.01
+        },
+        {
+            "Name": "roubles",
+            "Amount": 50000
+        },
+        {
+            "Name": "SVT-40",
+            "Amount": 1
+        },
+        {
+            "Name": "SVT-40 10 round magazine",
+            "Amount": 2
+        },
+        {
+            "Name": "7.62x54R PS ammo pack (20 rounds)",
+            "Amount": 1
+        },
+        {
+            "Name": "barter for AVT-40 from prapor level 3",
+            "Amount": 1
+        }
+    ]
+}

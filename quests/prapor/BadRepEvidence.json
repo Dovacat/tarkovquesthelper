@@ -19,12 +19,12 @@
             "Required": true,
             "Location": "customs",
             "LocationBoxTopLeft": [
-                46,
-                53
+                453,
+                531
             ],
             "LocationBoxBottomRight": [
-                47,
-                54
+                464,
+                543
             ],
             "Type": "fetch",
             "Time": [
@@ -39,20 +39,20 @@
             "Required": false,
             "Location": "factory",
             "LocationBoxTopLeft": [
-                5,
-                28
+                52,
+                278
             ],
             "LocationBoxBottomRight": [
-                6,
-                30
+                61,
+                302
             ],
             "Type": "scout",
             "Time": [
                 0.0,
                 0.0
             ],
-            "Target": "locked room",
-            "Amount": 1
+            "Target": "the locked room",
+            "Amount": 0
         },
         {
             "ID": 3,
@@ -117,7 +117,7 @@
             "Amount": 1
         },
         {
-            "Name": "9x18mm PM PS gs PPO ammo pack (50 rounds)",
+            "Name": "9x18 PM PS gs PPO ammo pack (50 rounds)",
             "Amount": 3
         },
         {

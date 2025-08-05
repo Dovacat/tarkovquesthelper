@@ -1,0 +1,101 @@
+{
+    "QuestName": "Easy Job - Part 1",
+    "Locations": [
+        "lighthouse"
+    ],
+    "Kappa": true,
+    "LeadsTo": [
+        "Easy Job - Part 2",
+        "Reconnaissance"
+    ],
+    "Requirements": {
+        "Level": 1,
+        "Quests": [
+            "The Punisher - Part 2"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "lighthouse",
+            "LocationBoxTopLeft": [
+                561,
+                329
+            ],
+            "LocationBoxBottomRight": [
+                589,
+                346
+            ],
+            "Type": "scout",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "the helecopter",
+            "Amount": 0
+        },
+        {
+            "ID": 2,
+            "Required": true,
+            "Location": "lighthouse",
+            "LocationBoxTopLeft": [
+                561,
+                329
+            ],
+            "LocationBoxBottomRight": [
+                589,
+                346
+            ],
+            "Type": "mark",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "the helecopter",
+            "Amount": 1
+        },
+        {
+            "ID": 3,
+            "Required": true,
+            "Location": "lighthouse",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "survive",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "lighthouse raid",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 15000
+        },
+        {
+            "Name": "prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "roubles",
+            "Amount": 120000
+        },
+        {
+            "Name": "6Sh118 raid backpack",
+            "Amount": 1
+        },
+        {
+            "Name": "AK-12",
+            "Amount": 1
+        }
+    ]
+}

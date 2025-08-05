@@ -1,0 +1,53 @@
+{
+    "QuestName": "Possessor",
+    "Locations": [
+        "factory"
+    ],
+    "Kappa": true,
+    "Requirements": {
+        "Level": 1,
+        "Quests": [
+            "Postman Pat - Part 1"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "factory",
+            "LocationBoxTopLeft": [
+                134,
+                287
+            ],
+            "LocationBoxBottomRight": [
+                140,
+                309
+            ],
+            "Type": "find",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "helicopter logbook",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 7300
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "roubles",
+            "Amount": 49000
+        },
+        {
+            "Name": "metal fuel tank",
+            "Amount": 1
+        }
+    ]
+}

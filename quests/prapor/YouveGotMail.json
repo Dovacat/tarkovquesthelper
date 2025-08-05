@@ -1,0 +1,64 @@
+{
+    "QuestName": "You've Got Mail",
+    "Locations": [
+        "streets"
+    ],
+    "Kappa": false,
+    "LeadsTo": [
+        "Glory To CPSU - Part 1"
+    ],
+    "Requirements": {
+        "Level": 10,
+        "Quests": [
+            "Postman Pat - Part 1"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "streets",
+            "LocationBoxTopLeft": [
+                516,
+                463
+            ],
+            "LocationBoxBottomRight": [
+                525,
+                493
+            ],
+            "Type": "find",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "registered mail",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 4800
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "roubles",
+            "Amount": 28000
+        },
+        {
+            "Name": "6B47 helmet",
+            "Amount": 1
+        },
+        {
+            "Name": "5.45x39 BP gs ammo pack (30 rounds)",
+            "Amount": 1
+        },
+        {
+            "Name": "purchase of 9x18 PM SP7 gzh at Prapor level 2",
+            "Amount": 1
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "QuestName": "Gendarmerie - District Patrol",
+    "Locations": [
+        "streets"
+    ],
+    "Kappa": false,
+    "Requirements": {
+        "Level": 1,
+        "Quests": [
+            "Gendarmerie - Tickets, Please"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "streets",
+            "LocationBoxTopLeft": [
+                352,
+                177
+            ],
+            "LocationBoxBottomRight": [
+                529,
+                349
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "targets using assault rifles or assault carbines",
+            "Amount": 30
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 25000
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.04
+        },
+        {
+            "Name": "roubles",
+            "Amount": 185000
+        },
+        {
+            "Name": "Vodka",
+            "Amount": 16
+        },
+        {
+            "Name": "BNTI Zhuk",
+            "Amount": 1
+        },
+        {
+            "Name": "barter for AK-12 from Prapor level 4",
+            "Amount": 1
+        },
+        {
+            "Name": "craft for 5.45x39 BP gs from workbench level 3",
+            "Amount": 1
+        }
+    ]
+}

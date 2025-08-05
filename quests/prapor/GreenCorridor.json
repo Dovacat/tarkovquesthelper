@@ -1,0 +1,102 @@
+{
+    "QuestName": "Green Corridor",
+    "Locations": [
+        "streets"
+    ],
+    "Kappa": false,
+    "Requirements": {
+        "Faction": "bear",
+        "Level": 20,
+        "Quests": [
+            "Spa Tour - Part 7"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "streets",
+            "LocationBoxTopLeft": [
+                523,
+                566
+            ],
+            "LocationBoxBottomRight": [
+                554,
+                619
+            ],
+            "Type": "scout",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "the cargo convoy",
+            "Amount": 0
+        },
+        {
+            "ID": 2,
+            "Required": true,
+            "Location": "streets",
+            "LocationBoxTopLeft": [
+                466,
+                620
+            ],
+            "LocationBoxBottomRight": [
+                524,
+                637
+            ],
+            "Type": "scout",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "the ambush spot",
+            "Amount": 0
+        },
+        {
+            "ID": 3,
+            "Required": true,
+            "Location": "streets",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "survive",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "streets raid",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 10400
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 62000
+        },
+        {
+            "Name": "SR-2M",
+            "Amount": 1
+        },
+        {
+            "Name": "SR-2M 20 round magazine",
+            "Amount": 3
+        },
+        {
+            "Name": "9x21 P gzh",
+            "Amount": 80
+        }
+    ]
+}

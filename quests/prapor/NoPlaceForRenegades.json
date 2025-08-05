@@ -1,0 +1,64 @@
+{
+    "QuestName": "No Place For Renegades",
+    "Locations": [
+        "reserve"
+    ],
+    "Kappa": true,
+    "LeadsTo": [
+        "Documents"
+    ],
+    "Requirements": {
+        "Level": 17,
+        "Quests": [
+            "The Bunker - Part 2"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "reserve",
+            "LocationBoxTopLeft": [
+                324,
+                232
+            ],
+            "LocationBoxBottomRight": [
+                338,
+                252
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "raiders",
+            "Amount": 5
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 15300
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.03
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 40000
+        },
+        {
+            "Name": "AK-103",
+            "Amount": 1
+        },
+        {
+            "Name": "AK-103 30 round magazine",
+            "Amount": 3
+        },
+        {
+            "Name": "7.62x39 PP gzh ammo pack (20 rounds)",
+            "Amount": 7
+        }
+    ]
+}

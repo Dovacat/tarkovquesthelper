@@ -1,0 +1,105 @@
+{
+    "QuestName": "Capturing Outposts",
+    "Locations": [
+        "any"
+    ],
+    "Kappa": false,
+    "Requirements": {
+        "Level": 42,
+        "Quests": [
+            "The Punisher - Part 6"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "customs",
+            "LocationBoxTopLeft": [
+                445,
+                206
+            ],
+            "LocationBoxBottomRight": [
+                485,
+                327
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "PMCs",
+            "Amount": 8
+        },
+        {
+            "ID": 2,
+            "Required": true,
+            "Location": "woods",
+            "LocationBoxTopLeft": [
+                573,
+                801
+            ],
+            "LocationBoxBottomRight": [
+                617,
+                849
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "PMCs",
+            "Amount": 8
+        },
+        {
+            "ID": 3,
+            "Required": true,
+            "Location": "shoreline",
+            "LocationBoxTopLeft": [
+                334,
+                411
+            ],
+            "LocationBoxBottomRight": [
+                465,
+                517
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "PMCs",
+            "Amount": 8
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 69999
+        },
+        {
+            "Name": "RU army armband",
+            "Amount": 1
+        },
+        {
+            "Name": "USEC armband",
+            "Amount": 1
+        },
+        {
+            "Name": "Rys-T helmet",
+            "Amount": 1
+        },
+        {
+            "Name": "Rys-T faceshield",
+            "Amount": 1
+        },
+        {
+            "Name": "6B43 Zabralo",
+            "Amount": 7
+        },
+        {
+            "Name": "purchase of 9x39 SP-6 from Prapor level 4",
+            "Amount": 1
+        }
+    ]
+}
