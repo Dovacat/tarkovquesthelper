@@ -1,0 +1,148 @@
+{
+    "QuestName": "The Bunker - Part 2",
+    "Locations": [
+        "reserve"
+    ],
+    "Kappa": true,
+    "LeadsTo": [
+        "No Place For Renegades"
+    ],
+    "Requirements": {
+        "Level": 15,
+        "Quests": [
+            "The Bunker - Part 1"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "reserve",
+            "LocationBoxTopLeft": [
+                877,
+                183
+            ],
+            "LocationBoxBottomRight": [
+                886,
+                149
+            ],
+            "Type": "scout",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "the door to white bishop",
+            "Amount": 0
+        },
+        {
+            "ID": 2,
+            "Required": true,
+            "Location": "reserve",
+            "LocationBoxTopLeft": [
+                921,
+                125
+            ],
+            "LocationBoxBottomRight": [
+                958,
+                148
+            ],
+            "Type": "scout",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "the door to black bishop",
+            "Amount": 0
+        },
+        {
+            "ID": 3,
+            "Required": true,
+            "Location": "reserve",
+            "LocationBoxTopLeft": [
+                960,
+                177
+            ],
+            "LocationBoxBottomRight": [
+                967,
+                243
+            ],
+            "Type": "scout",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "the door to black pawn",
+            "Amount": 0
+        },
+        {
+            "ID": 4,
+            "Required": true,
+            "Location": "reserve",
+            "LocationBoxTopLeft": [
+                901,
+                285
+            ],
+            "LocationBoxBottomRight": [
+                944,
+                291
+            ],
+            "Type": "scout",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "the door to white pawn",
+            "Amount": 0
+        },
+        {
+            "ID": 5,
+            "Required": true,
+            "Location": "reserve",
+            "LocationBoxTopLeft": [
+                870,
+                207
+            ],
+            "LocationBoxBottomRight": [
+                877,
+                217
+            ],
+            "Type": "scout",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "the door to white king",
+            "Amount": 0
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 9200
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.03
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 25000
+        },
+        {
+            "Name": "AKS-74UB",
+            "Amount": 1
+        },
+        {
+            "Name": "5.45x39 BS ammo pack (120 rounds)",
+            "Amount": 1
+        },
+        {
+            "Name": "AK CAA RS47 handguard",
+            "Amount": 1
+        },
+        {
+            "Name": "AK-74M CAA AKTS AK74 buffer tube",
+            "Amount": 1
+        }
+    ]
+}

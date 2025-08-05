@@ -1,0 +1,57 @@
+{
+    "QuestName": "Shipping Delay - Part 1",
+    "Locations": [
+        "woods"
+    ],
+    "Kappa": false,
+    "Requirements": {
+        "Level": 1,
+        "Quests": [
+            "A Helping Hand"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "woods",
+            "LocationBoxTopLeft": [
+                879,
+                751
+            ],
+            "LocationBoxBottomRight": [
+                893,
+                760
+            ],
+            "Type": "find",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "package for Prapor",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 11000
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "roubles",
+            "Amount": 57000
+        },
+        {
+            "Name": "7.62x54R PS ammo pack (20 rounds)",
+            "Amount": 3
+        },
+        {
+            "Name": "5.45x39 7N40 ammo pack (30 rounds)",
+            "Amount": 3
+        }
+    ]
+}

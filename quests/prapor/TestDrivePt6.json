@@ -1,0 +1,53 @@
+{
+    "QuestName": "Test Drive - Part 6",
+    "Locations": [
+        "customs"
+    ],
+    "Kappa": true,
+    "Requirements": {
+        "Level": 40,
+        "Quests": [
+            "Test Drive - Part 5"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "customs",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "any targets using a Velociraptor",
+            "Amount": 50
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 65000
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 65000
+        },
+        {
+            "Name": "BNTI Zhuk",
+            "Amount": 2
+        }
+    ]
+}

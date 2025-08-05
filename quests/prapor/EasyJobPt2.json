@@ -1,0 +1,57 @@
+{
+    "QuestName": "Easy Job - Part 2",
+    "Locations": [
+        "lighthouse"
+    ],
+    "Kappa": true,
+    "Requirements": {
+        "Level": 1,
+        "Quests": [
+            "Easy Job - Part 1"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "lighthouse",
+            "LocationBoxTopLeft": [
+                424,
+                245
+            ],
+            "LocationBoxBottomRight": [
+                647,
+                413
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "targets",
+            "Amount": 20
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 18000
+        },
+        {
+            "Name": "prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "roubles",
+            "Amount": 155000
+        },
+        {
+            "Name": "purchase of AK 7.62x39 75 round drum magazine from Prapor level 3",
+            "Amount": 1
+        },
+        {
+            "Name": "\"Dirty\" hideout ceiling style",
+            "Amount": 1
+        }
+    ]
+}

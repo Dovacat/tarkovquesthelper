@@ -67,6 +67,9 @@
                 {
                     "type": "object",
                     "properties": {
+                        "ID": {
+                            "type": "integer"
+                        },
                         "Required": {
                             "type": "boolean"
                         },
@@ -117,6 +120,7 @@
                         }
                     },
                     "required": [
+                        "ID",
                         "Required",
                         "Location",
                         "LocationBoxTopLeft",
@@ -154,7 +158,6 @@
         "QuestName",
         "Locations",
         "Kappa",
-        "LeadsTo",
         "Requirements",
         "Objectives",
         "Rewards"

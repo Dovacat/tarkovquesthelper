@@ -1,0 +1,68 @@
+{
+    "QuestName": "The Bunker - Part 1",
+    "Locations": [
+        "reserve"
+    ],
+    "Kappa": true,
+    "LeadsTo": [
+        "The Bunker - Part 2"
+    ],
+    "Requirements": {
+        "Level": 10,
+        "Quests": [
+            "BP Depot"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "reserve",
+            "LocationBoxTopLeft": [
+                911,
+                183
+            ],
+            "LocationBoxBottomRight": [
+                927,
+                207
+            ],
+            "Type": "scout",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "the bunker control room",
+            "Amount": 0
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 5700
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.03
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 20000
+        },
+        {
+            "Name": "SR-2M",
+            "Amount": 1
+        },
+        {
+            "Name": "9x21 BT ammo pack (30 rounds)",
+            "Amount": 1
+        },
+        {
+            "Name": "SR-2M 20 round magazine",
+            "Amount": 3
+        },
+        {
+            "Name": "purchase of 9x21 PS gzh at Prapor level 2",
+            "Amount": 1
+        }
+    ]
+}

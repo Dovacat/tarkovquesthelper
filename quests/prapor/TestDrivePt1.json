@@ -1,0 +1,64 @@
+{
+    "QuestName": "Test Drive - Part 1",
+    "Locations": [
+        "any"
+    ],
+    "Kappa": true,
+    "Requirements": {
+        "Level": 30,
+        "Quests": [
+            "Grenadier"
+        ]
+    },
+    "LeadsTo": [
+        "Test Drive - Part 2"
+    ],
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "PMCs over 60 meters away using the specified M1A",
+            "Amount": 5
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 18200
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "VSS",
+            "Amount": 1
+        },
+        {
+            "Name": "9x39 PAB-9 gs ammo pack (20 rounds)",
+            "Amount": 6
+        },
+        {
+            "Name": "VSS/VAL 30 round magazine",
+            "Amount": 2
+        },
+        {
+            "Name": "craft for 9x39 PAB-9 at workbench lvl 2",
+            "Amount": 1
+        }
+    ]
+}

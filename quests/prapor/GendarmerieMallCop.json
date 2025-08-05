@@ -1,0 +1,68 @@
+{
+    "QuestName": "Gendarmerie - Mall Cop",
+    "Locations": [
+        "streets"
+    ],
+    "Kappa": false,
+    "LeadsTo": [
+        "Gendarmerie - Tickets, Please"
+    ],
+    "Requirements": {
+        "Level": 1,
+        "Quests": [
+            "The Punisher - Part 6"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "streets",
+            "LocationBoxTopLeft": [
+                550,
+                225
+            ],
+            "LocationBoxBottomRight": [
+                686,
+                371
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "targets using pistols",
+            "Amount": 15
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 21500
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "roubles",
+            "Amount": 120000
+        },
+        {
+            "Name": "SR-2M",
+            "Amount": 1
+        },
+        {
+            "Name": "SR-2M 30 round magazine",
+            "Amount": 4
+        },
+        {
+            "Name": "9x21 PS gzh ammo pack (30 rounds)",
+            "Amount": 5
+        },
+        {
+            "Name": "barter for SR-1MP from Prapor level 4",
+            "Amount": 1
+        }
+    ]
+}

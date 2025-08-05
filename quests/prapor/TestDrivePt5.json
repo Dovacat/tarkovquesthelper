@@ -1,0 +1,64 @@
+{
+    "QuestName": "Test Drive - Part 5",
+    "Locations": [
+        "factory"
+    ],
+    "Kappa": true,
+    "Requirements": {
+        "Level": 40,
+        "Quests": [
+            "Test Drive - Part 4"
+        ]
+    },
+    "LeadsTo": [
+        "Test Drive - Part 6"
+    ],
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "shoreline",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "any targets using the specified UZI PRO",
+            "Amount": 50
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 50000
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 500000
+        },
+        {
+            "Name": "AS VAL",
+            "Amount": 1
+        },
+        {
+            "Name": "VSS/VAL 30 round magazine",
+            "Amount": 3
+        },
+        {
+            "Name": "9x39 BP ammo pack (20 rounds)",
+            "Amount": 6
+        }
+    ]
+}

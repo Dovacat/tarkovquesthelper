@@ -49,3 +49,23 @@ class Quests:
     def get_locations(self, quest):
         data = self.get_json_data(quest)
         return data.get("Locations")
+
+    def get_num_quests(self):
+        return len(self.quest_list)
+
+    def get_num_quests_kappa(self):
+        num = 0
+        for name, dir in self.quest_list:
+            if self.get_json_data(name).get("Kappa"):
+                num += 1
+
+    def check_ID_nums(self):
+        for name, dir in self.quest_list:
+            objectives = self.get_objectives(name)
+            id_nums = []
+            for objective in objectives:
+                num = objective.get("ID")
+                if num in id_nums:
+                    print(f"{name} has duplicate ID number {num}")
+                else:
+                    id_nums.append(num)

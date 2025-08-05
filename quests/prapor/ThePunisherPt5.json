@@ -1,0 +1,125 @@
+{
+    "QuestName": "The Punisher - Part 5",
+    "Locations": [
+        "any"
+    ],
+    "Kappa": true,
+    "LeadsTo": [
+        "The Punisher - Part 6",
+        "Our Own Land"
+    ],
+    "Requirements": {
+        "Level": 20,
+        "Quests": [
+            "The Punisher - Part 4"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "fir",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "AK-74",
+            "Amount": 1
+        },
+        {
+            "ID": 2,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "fir",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "M4A1",
+            "Amount": 1
+        },
+        {
+            "ID": 3,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "fir",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "Makarov PM",
+            "Amount": 2
+        },
+        {
+            "ID": 4,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "PMCs wearing a PACA and 6B47 helmet",
+            "Amount": 10
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 18200
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.03
+        },
+        {
+            "Name": "Dollars",
+            "Amount": 5000
+        },
+        {
+            "Name": "Pistol case",
+            "Amount": 1
+        },
+        {
+            "Name": "Documents case",
+            "Amount": 1
+        },
+        {
+            "Name": "7.62x39 BP gzh ammo pack (20 rounds)",
+            "Amount": 6
+        }
+    ]
+}

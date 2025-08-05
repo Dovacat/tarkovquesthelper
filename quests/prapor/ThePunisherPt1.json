@@ -1,0 +1,64 @@
+{
+    "QuestName": "The Punisher - Part 1",
+    "Locations": [
+        "shoreline"
+    ],
+    "Kappa": true,
+    "LeadsTo": [
+        "The Punisher - Part 2"
+    ],
+    "Requirements": {
+        "Level": 17,
+        "Quests": [
+            "Shaking Up The Teller"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "shoreline",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "scavs using an AKM series weapon",
+            "Amount": 15
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 10200
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 40000
+        },
+        {
+            "Name": "6B43 Zabralo-Sh body armor",
+            "Amount": 1
+        },
+        {
+            "Name": "Purchase of SV-98 sniper rifle from prapor lvl 3",
+            "Amount": 1
+        },
+        {
+            "Name": "Purchase of 7.62x39 PS gzh from prapor lvl 3",
+            "Amount": 1
+        }
+    ]
+}

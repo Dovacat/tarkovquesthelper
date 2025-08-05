@@ -1,0 +1,68 @@
+{
+    "QuestName": "Gendarmerie - Tickets, Please",
+    "Locations": [
+        "streets"
+    ],
+    "Kappa": false,
+    "LeadsTo": [
+        "Gendarmerie - District Patrol"
+    ],
+    "Requirements": {
+        "Level": 1,
+        "Quests": [
+            "Gendarmerie - Mall Cop"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "streets",
+            "LocationBoxTopLeft": [
+                652,
+                734
+            ],
+            "LocationBoxBottomRight": [
+                711,
+                811
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "targets using SMGs",
+            "Amount": 25
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 22600
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.03
+        },
+        {
+            "Name": "roubles",
+            "Amount": 150000
+        },
+        {
+            "Name": "AK-103",
+            "Amount": 2
+        },
+        {
+            "Name": "AK-103 30 round magazine",
+            "Amount": 4
+        },
+        {
+            "Name": "7.62x39 PP gzh ammo pack (20 rounds)",
+            "Amount": 9
+        },
+        {
+            "Name": "barter for SR-2M from Prapor level 4",
+            "Amount": 1
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "QuestName": "No Offence",
+    "Locations": [
+        "any"
+    ],
+    "Kappa": true,
+    "Requirements": {
+        "Level": 1,
+        "Quests": [
+            "Chemical - Part 4",
+            "Out Of Curiosity",
+            "Big Customer"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "gather",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "M67 grenade",
+            "Amount": 10
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.25
+        }
+    ]
+}

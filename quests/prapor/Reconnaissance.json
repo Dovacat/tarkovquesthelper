@@ -1,0 +1,117 @@
+{
+    "QuestName": "Reconnaissance",
+    "Locations": [
+        "lighthouse"
+    ],
+    "Kappa": true,
+    "Requirements": {
+        "Level": 1,
+        "Quests": [
+            "Easy Job - Part 1"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "lighthouse",
+            "LocationBoxTopLeft": [
+                433,
+                281
+            ],
+            "LocationBoxBottomRight": [
+                461,
+                319
+            ],
+            "Type": "scout",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "first water treatment plant roof",
+            "Amount": 0
+        },
+        {
+            "ID": 2,
+            "Required": true,
+            "Location": "lighthouse",
+            "LocationBoxTopLeft": [
+                541,
+                229
+            ],
+            "LocationBoxBottomRight": [
+                611,
+                248
+            ],
+            "Type": "scout",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "second water treatment plant roof",
+            "Amount": 0
+        },
+        {
+            "ID": 3,
+            "Required": true,
+            "Location": "lighthouse",
+            "LocationBoxTopLeft": [
+                644,
+                259
+            ],
+            "LocationBoxBottomRight": [
+                672,
+                298
+            ],
+            "Type": "scout",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "third water treatment plant roof",
+            "Amount": 0
+        },
+        {
+            "ID": 4,
+            "Required": true,
+            "Location": "lighthouse",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "survive",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "lighthouse raid",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 18000
+        },
+        {
+            "Name": "prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "roubles",
+            "Amount": 155000
+        },
+        {
+            "Name": "purchase of AK 7.62x39 75 round drum magazine from Prapor level 3",
+            "Amount": 1
+        },
+        {
+            "Name": "\"Dirty\" hideout ceiling style",
+            "Amount": 1
+        }
+    ]
+}

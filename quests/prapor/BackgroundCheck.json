@@ -1,0 +1,64 @@
+{
+    "QuestName": "Background Check",
+    "Locations": [
+        "customs"
+    ],
+    "Kappa": true,
+    "LeadsTo": [
+        "Shootout Picnic",
+        "Delivery From the Past"
+    ],
+    "Requirements": {
+        "Level": 2,
+        "Quests": [
+            "Luxurious Life"
+        ],
+        "Items": [
+            "Machinery Key"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "customs",
+            "LocationBoxTopLeft": [
+                555,
+                481
+            ],
+            "LocationBoxBottomRight": [
+                561,
+                505
+            ],
+            "Type": "fetch",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "Bronze Pocket Watch",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 1800
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.03
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 15000
+        },
+        {
+            "Name": "SKS carbine",
+            "Amount": 1
+        },
+        {
+            "Name": "7.62x39 FMJ ammo pack (20 rounds)",
+            "Amount": 3
+        }
+    ]
+}

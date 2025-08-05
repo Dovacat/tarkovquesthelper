@@ -1,0 +1,56 @@
+{
+    "QuestName": "The Good Times - Part 2",
+    "Locations": [
+        "any"
+    ],
+    "Kappa": false,
+    "LeadsTo": [
+        "Minute Of Fame"
+    ],
+    "Requirements": {
+        "Level": 1,
+        "Quests": [
+            "Airmail"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "targets using the golden TT",
+            "Amount": 10
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 62400
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.03
+        },
+        {
+            "Name": "roubles",
+            "Amount": 226000
+        },
+        {
+            "Name": "ammunition case",
+            "Amount": 2
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "QuestName": "Intimidator",
+    "Locations": [
+        "any"
+    ],
+    "Kappa": true,
+    "Requirements": {
+        "Level": 45,
+        "Quests": [
+            "The Punisher - Part 6"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "scavs with headshots",
+            "Amount": 40
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 84000
+        },
+        {
+            "Name": "aim drills skill levels",
+            "Amount": 3
+        },
+        {
+            "Name": "assault rifle skill levels",
+            "Amount": 3
+        },
+        {
+            "Name": "craft for 7.62x39 BP gzh at workbench level 3",
+            "Amount": 1
+        }
+    ]
+}

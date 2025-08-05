@@ -1,0 +1,104 @@
+{
+    "QuestName": "Documents",
+    "Locations": [
+        "reserve"
+    ],
+    "Kappa": true,
+    "LeadsTo": [
+        "Special Comms"
+    ],
+    "Requirements": {
+        "Level": 19,
+        "Quests": [
+            "No Place For Renegades"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "reserve",
+            "LocationBoxTopLeft": [
+                910,
+                183
+            ],
+            "LocationBoxBottomRight": [
+                926,
+                217
+            ],
+            "Type": "fetch",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "first folder",
+            "Amount": 1
+        },
+        {
+            "ID": 2,
+            "Required": true,
+            "Location": "reserve",
+            "LocationBoxTopLeft": [
+                910,
+                183
+            ],
+            "LocationBoxBottomRight": [
+                926,
+                217
+            ],
+            "Type": "fetch",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "second folder",
+            "Amount": 1
+        },
+        {
+            "ID": 3,
+            "Required": true,
+            "Location": "reserve",
+            "LocationBoxTopLeft": [
+                910,
+                183
+            ],
+            "LocationBoxBottomRight": [
+                926,
+                217
+            ],
+            "Type": "fetch",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "third folder",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 2800
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 22000
+        },
+        {
+            "Name": "EYE MK2 compass",
+            "Amount": 1
+        },
+        {
+            "Name": "woods map",
+            "Amount": 1
+        },
+        {
+            "Name": "purchase of NPP KlASS from prapor lvl 1",
+            "Amount": 1
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "QuestName": "Best Job In The World",
+    "Locations": [
+        "any"
+    ],
+    "Kappa": false,
+    "Requirements": {
+        "Level": 25,
+        "Quests": [
+            "The Punisher - Part 6",
+            "Kings Of The Rooftops"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "targets over 100m away using AK-74 series weapons",
+            "Amount": 30
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 15400
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.03
+        },
+        {
+            "Name": "barter for GP-25 underbarrel grenade launcher from Prapor level 3",
+            "Amount": 1
+        },
+        {
+            "Name": "purchase of 40mm VOG-25 from Prapor level 3",
+            "Amount": 1
+        }
+    ]
+}

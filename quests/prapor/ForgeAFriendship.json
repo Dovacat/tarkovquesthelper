@@ -1,0 +1,65 @@
+{
+    "QuestName": "Forge A Friendship",
+    "Locations": [
+        "shoreline"
+    ],
+    "Kappa": false,
+    "LeadsTo": [
+        "Half Empty"
+    ],
+    "Requirements": {
+        "Level": 1,
+        "Quests": [
+            "Hot Wheels",
+            "Natural Exchange"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "shoreline",
+            "LocationBoxTopLeft": [
+                428,
+                891
+            ],
+            "LocationBoxBottomRight": [
+                438,
+                910
+            ],
+            "Type": "find",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "Prapor's cargo",
+            "Amount": 0
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 18800
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 95000
+        },
+        {
+            "Name": "AK-12",
+            "Amount": 1
+        },
+        {
+            "Name": "AK-74 45 round magazine",
+            "Amount": 3
+        },
+        {
+            "Name": "5.45x39 BP ammo pack (120 rounds)",
+            "Amount": 2
+        }
+    ]
+}

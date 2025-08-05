@@ -1,19 +1,22 @@
 {
-    "QuestName": "Debut",
+    "QuestName": "The Punisher - Part 6",
     "Locations": [
-        "customs",
-        "factory"
+        "any"
     ],
     "Kappa": true,
     "LeadsTo": [
-        "Search Mission",
-        "Luxurious Life"
+        "Capturing Outposts",
+        "Intimidator",
+        "Escort",
+        "The Choice",
+        "Gendarmerie - Mall Cop",
+        "Best Job In The World"
     ],
     "Requirements": {
-        "Level": 0,
+        "Level": 21,
         "Quests": [
-            "Shooting Cans"
-        ] 
+            "The Punisher - Part 5"
+        ]
     },
     "Objectives": [
         {
@@ -33,8 +36,8 @@
                 0.0,
                 0.0
             ],
-            "Target": "scav",
-            "Amount": 5
+            "Target": "PMCs using an SVD (not on factory)",
+            "Amount": 15
         },
         {
             "ID": 2,
@@ -48,42 +51,62 @@
                 0,
                 0
             ],
-            "Type": "gather",
+            "Type": "fir",
             "Time": [
                 0.0,
                 0.0
             ],
-            "Target": "MP-133",
-            "Amount": 2
+            "Target": "BEAR dogtags",
+            "Amount": 7
+        },
+        {
+            "ID": 3,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "fir",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "USEC Dogtags",
+            "Amount": 7
         }
     ],
     "Rewards": [
         {
             "Name": "xp",
-            "Amount": 1700
+            "Amount": 19400
         },
         {
             "Name": "Prapor rep",
-            "Amount": 0.02
+            "Amount": 0.04
         },
         {
-            "Name": "Jaeger rep",
+            "Name": "Therapist rep",
+            "Amount": 0.05
+        },
+        {
+            "Name": "Skier rep",
             "Amount": 0.01
         },
         {
             "Name": "Roubles",
-            "Amount": 15000
+            "Amount": 250000
         },
         {
-            "Name": "PP-91 Kedr",
+            "Name": "Secure container epsilon",
             "Amount": 1
         },
         {
-            "Name": "9x18 PM BZhT gzh ammo pack (50 rounds)",
-            "Amount": 2
-        },
-        {
-            "Name": "Purchase AKS-74UB at Prapor lvl 1",
+            "Name": "purchase of 7.62x54 R PS gzh at Prapor lvl 4",
             "Amount": 1
         }
     ]

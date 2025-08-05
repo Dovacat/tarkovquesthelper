@@ -1,19 +1,18 @@
 {
-    "QuestName": "Debut",
+    "QuestName": "Ice Cream Cones",
     "Locations": [
-        "customs",
-        "factory"
+        "any"
     ],
     "Kappa": true,
     "LeadsTo": [
-        "Search Mission",
-        "Luxurious Life"
+        "Postman Pat - Part 1",
+        "Shaking Up The Teller"
     ],
     "Requirements": {
-        "Level": 0,
+        "Level": 9,
         "Quests": [
-            "Shooting Cans"
-        ] 
+            "Bad Rep Evidence"
+        ]
     },
     "Objectives": [
         {
@@ -28,18 +27,18 @@
                 0,
                 0
             ],
-            "Type": "elimination",
+            "Type": "fir",
             "Time": [
                 0.0,
                 0.0
             ],
-            "Target": "scav",
-            "Amount": 5
+            "Target": "AK-74 5.45x39 6L31 60 round magazines",
+            "Amount": 3
         },
         {
             "ID": 2,
-            "Required": true,
-            "Location": "any",
+            "Required": false,
+            "Location": "customs",
             "LocationBoxTopLeft": [
                 0,
                 0
@@ -53,37 +52,53 @@
                 0.0,
                 0.0
             ],
-            "Target": "MP-133",
-            "Amount": 2
+            "Target": "Dorm Room 220 key",
+            "Amount": 1
+        },
+        {
+            "ID": 3,
+            "Required": false,
+            "Location": "woods",
+            "LocationBoxTopLeft": [
+                158,
+                699
+            ],
+            "LocationBoxBottomRight": [
+                173,
+                711
+            ],
+            "Type": "scout",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "the locked bunker (ZB-014)",
+            "Amount": 0
         }
     ],
     "Rewards": [
         {
             "Name": "xp",
-            "Amount": 1700
+            "Amount": 5200
         },
         {
             "Name": "Prapor rep",
             "Amount": 0.02
         },
         {
-            "Name": "Jaeger rep",
-            "Amount": 0.01
-        },
-        {
             "Name": "Roubles",
-            "Amount": 15000
+            "Amount": 17000
         },
         {
-            "Name": "PP-91 Kedr",
+            "Name": "RPK-16",
             "Amount": 1
         },
         {
-            "Name": "9x18 PM BZhT gzh ammo pack (50 rounds)",
+            "Name": "5.45x39 PP gs ammo pack (120 rounds)",
             "Amount": 2
         },
         {
-            "Name": "Purchase AKS-74UB at Prapor lvl 1",
+            "Name": "barter for AK-74 5.45x39 6L31 60-round magazine at Prapor lvl 2",
             "Amount": 1
         }
     ]

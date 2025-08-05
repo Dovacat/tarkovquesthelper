@@ -1,19 +1,17 @@
 {
-    "QuestName": "Debut",
+    "QuestName": "Half Empty",
     "Locations": [
-        "customs",
-        "factory"
+        "any"
     ],
-    "Kappa": true,
+    "Kappa": false,
     "LeadsTo": [
-        "Search Mission",
-        "Luxurious Life"
+        "Stick In The Wheel"
     ],
     "Requirements": {
-        "Level": 0,
+        "Level": 1,
         "Quests": [
-            "Shooting Cans"
-        ] 
+            "Forge A Friendship"
+        ]
     },
     "Objectives": [
         {
@@ -28,12 +26,12 @@
                 0,
                 0
             ],
-            "Type": "elimination",
+            "Type": "fir",
             "Time": [
                 0.0,
                 0.0
             ],
-            "Target": "scav",
+            "Target": "military electronics items",
             "Amount": 5
         },
         {
@@ -48,43 +46,35 @@
                 0,
                 0
             ],
-            "Type": "gather",
+            "Type": "fir",
             "Time": [
                 0.0,
                 0.0
             ],
-            "Target": "MP-133",
-            "Amount": 2
+            "Target": "computer component items",
+            "Amount": 10
         }
     ],
     "Rewards": [
         {
             "Name": "xp",
-            "Amount": 1700
+            "Amount": 14900
         },
         {
             "Name": "Prapor rep",
             "Amount": 0.02
         },
         {
-            "Name": "Jaeger rep",
-            "Amount": 0.01
-        },
-        {
             "Name": "Roubles",
-            "Amount": 15000
+            "Amount": 123000
         },
         {
-            "Name": "PP-91 Kedr",
-            "Amount": 1
-        },
-        {
-            "Name": "9x18 PM BZhT gzh ammo pack (50 rounds)",
+            "Name": "Altyn helmet",
             "Amount": 2
         },
         {
-            "Name": "Purchase AKS-74UB at Prapor lvl 1",
-            "Amount": 1
+            "Name": "Altyn face shield",
+            "Amount": 2
         }
     ]
 }

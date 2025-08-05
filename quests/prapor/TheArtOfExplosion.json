@@ -1,0 +1,53 @@
+{
+    "QuestName": "The Art Of Explosion",
+    "Locations": [
+        "any"
+    ],
+    "Kappa": true,
+    "Requirements": {
+        "Level": 33,
+        "Quests": [
+            "Grenadier"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "any target with grenades or grenade launchers",
+            "Amount": 35
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 19200
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 92000
+        },
+        {
+            "Name": "RShG-2 rocket launcher",
+            "Amount": 1
+        },
+        {
+            "Name": "purchase of RShG-2 rocket launcher at prapor lvl 4",
+            "Amount": 1
+        }
+    ]
+}

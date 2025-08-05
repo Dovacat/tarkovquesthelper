@@ -1,0 +1,229 @@
+{
+    "QuestName": "Escort",
+    "Locations": [
+        "any"
+    ],
+    "Kappa": false,
+    "Requirements": {
+        "Level": 60,
+        "Quests": [
+            "The Punisher - Part 6"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "factory",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                600,
+                2200
+            ],
+            "Target": "PMCs",
+            "Amount": 4
+        },
+        {
+            "ID": 2,
+            "Required": true,
+            "Location": "customs",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "PMCs",
+            "Amount": 4
+        },
+        {
+            "ID": 3,
+            "Required": true,
+            "Location": "shoreline",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                0,
+                0
+            ],
+            "Target": "PMCs",
+            "Amount": 4
+        },
+        {
+            "ID": 4,
+            "Required": true,
+            "Location": "shoreline",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                0,
+                0
+            ],
+            "Target": "PMCs",
+            "Amount": 4
+        },
+        {
+            "ID": 5,
+            "Required": true,
+            "Location": "reserve",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                0,
+                0
+            ],
+            "Target": "PMCs",
+            "Amount": 4
+        },
+        {
+            "ID": 6,
+            "Required": true,
+            "Location": "woods",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                0,
+                0
+            ],
+            "Target": "PMCs",
+            "Amount": 4
+        },
+        {
+            "ID": 7,
+            "Required": true,
+            "Location": "interchange",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                0,
+                0
+            ],
+            "Target": "PMCs",
+            "Amount": 4
+        },
+        {
+            "ID": 8,
+            "Required": true,
+            "Location": "labs",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                0,
+                0
+            ],
+            "Target": "PMCs",
+            "Amount": 4
+        },
+        {
+            "ID": 9,
+            "Required": true,
+            "Location": "ground_zero",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                0,
+                0
+            ],
+            "Target": "PMCs",
+            "Amount": 4
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 177000
+        },
+        {
+            "Name": "melee skill levels",
+            "Amount": 5
+        },
+        {
+            "Name": "pistol skill levels",
+            "Amount": 5
+        },
+        {
+            "Name": "strength skill levels",
+            "Amount": 5
+        },
+        {
+            "Name": "6B43 Zabralo",
+            "Amount": 1
+        },
+        {
+            "Name": "Rys-T helmet",
+            "Amount": 1
+        },
+        {
+            "Name": "Rys-T faceshield",
+            "Amount": 1
+        },
+        {
+            "Name": "craft for Rys-T helmet at lavatory level 3",
+            "Amount": 1
+        }
+    ]
+}

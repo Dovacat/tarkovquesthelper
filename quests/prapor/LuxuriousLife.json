@@ -1,90 +1,84 @@
 {
-    "QuestName": "Debut",
+    "QuestName": "Luxurious Life",
     "Locations": [
-        "customs",
-        "factory"
+        "ground_zero"
     ],
     "Kappa": true,
     "LeadsTo": [
-        "Search Mission",
-        "Luxurious Life"
+        "Background Check"
     ],
     "Requirements": {
-        "Level": 0,
+        "Level": 1,
         "Quests": [
-            "Shooting Cans"
-        ] 
+            "Debut"
+        ]
     },
     "Objectives": [
         {
             "ID": 1,
             "Required": true,
-            "Location": "any",
+            "Location": "ground_zero",
             "LocationBoxTopLeft": [
-                0,
-                0
+                302,
+                292
             ],
             "LocationBoxBottomRight": [
-                0,
-                0
+                345,
+                315
             ],
-            "Type": "elimination",
+            "Type": "scout",
             "Time": [
                 0.0,
                 0.0
             ],
-            "Target": "scav",
-            "Amount": 5
+            "Target": "the liqua sto",
+            "Amount": 0
         },
         {
             "ID": 2,
             "Required": true,
-            "Location": "any",
+            "Location": "ground_zero",
             "LocationBoxTopLeft": [
-                0,
-                0
+                302,
+                292
             ],
             "LocationBoxBottomRight": [
-                0,
-                0
+                345,
+                315
             ],
-            "Type": "gather",
+            "Type": "find",
             "Time": [
                 0.0,
                 0.0
             ],
-            "Target": "MP-133",
-            "Amount": 2
+            "Target": "wine bottle",
+            "Amount": 1
         }
     ],
     "Rewards": [
         {
             "Name": "xp",
-            "Amount": 1700
+            "Amount": 1750
         },
         {
             "Name": "Prapor rep",
-            "Amount": 0.02
-        },
-        {
-            "Name": "Jaeger rep",
             "Amount": 0.01
         },
         {
-            "Name": "Roubles",
-            "Amount": 15000
+            "Name": "roubles",
+            "Amount": 14000
         },
         {
-            "Name": "PP-91 Kedr",
+            "Name": "VPO-136 Vepr-KM 7.62x39",
             "Amount": 1
         },
         {
-            "Name": "9x18 PM BZhT gzh ammo pack (50 rounds)",
-            "Amount": 2
+            "Name": "7.62x39 FMJ ammo pack (20 rounds)",
+            "Amount": 5
         },
         {
-            "Name": "Purchase AKS-74UB at Prapor lvl 1",
-            "Amount": 1
+            "Name": "AK 7.62x39 30 round magazine",
+            "Amount": 3
         }
     ]
 }

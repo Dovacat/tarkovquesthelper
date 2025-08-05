@@ -1,19 +1,14 @@
 {
-    "QuestName": "Debut",
+    "QuestName": "Regulated Materials",
     "Locations": [
-        "customs",
-        "factory"
+        "any"
     ],
     "Kappa": true,
-    "LeadsTo": [
-        "Search Mission",
-        "Luxurious Life"
-    ],
     "Requirements": {
-        "Level": 0,
+        "Level": 25,
         "Quests": [
-            "Shooting Cans"
-        ] 
+            "Polikhim Hobo"
+        ]
     },
     "Objectives": [
         {
@@ -28,13 +23,13 @@
                 0,
                 0
             ],
-            "Type": "elimination",
+            "Type": "fir",
             "Time": [
                 0.0,
                 0.0
             ],
-            "Target": "scav",
-            "Amount": 5
+            "Target": "tank battery",
+            "Amount": 1
         },
         {
             "ID": 2,
@@ -48,42 +43,34 @@
                 0,
                 0
             ],
-            "Type": "gather",
+            "Type": "fir",
             "Time": [
                 0.0,
                 0.0
             ],
-            "Target": "MP-133",
-            "Amount": 2
+            "Target": "OFZ",
+            "Amount": 5
         }
     ],
     "Rewards": [
         {
             "Name": "xp",
-            "Amount": 1700
+            "Amount": 14800
         },
         {
             "Name": "Prapor rep",
             "Amount": 0.02
         },
         {
-            "Name": "Jaeger rep",
-            "Amount": 0.01
-        },
-        {
             "Name": "Roubles",
-            "Amount": 15000
+            "Amount": 150000
         },
         {
-            "Name": "PP-91 Kedr",
-            "Amount": 1
+            "Name": "12.7x55 PS12B ammo pack (10 rounds)",
+            "Amount": 10
         },
         {
-            "Name": "9x18 PM BZhT gzh ammo pack (50 rounds)",
-            "Amount": 2
-        },
-        {
-            "Name": "Purchase AKS-74UB at Prapor lvl 1",
+            "Name": "barter for ASh-12 12.7x55 assault rifle at Prapor level 4",
             "Amount": 1
         }
     ]

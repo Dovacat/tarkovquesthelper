@@ -1,89 +1,88 @@
 {
-    "QuestName": "Debut",
+    "QuestName": "Delivery From The Past",
     "Locations": [
         "customs",
         "factory"
     ],
     "Kappa": true,
     "LeadsTo": [
-        "Search Mission",
-        "Luxurious Life"
+        "BP Depot"
     ],
     "Requirements": {
-        "Level": 0,
+        "Level": 5,
         "Quests": [
-            "Shooting Cans"
-        ] 
+            "Background Check"
+        ]
     },
     "Objectives": [
         {
             "ID": 1,
             "Required": true,
-            "Location": "any",
+            "Location": "customs",
             "LocationBoxTopLeft": [
-                0,
-                0
+                892,
+                644
             ],
             "LocationBoxBottomRight": [
-                0,
-                0
+                906,
+                680
             ],
-            "Type": "elimination",
+            "Type": "fetch",
             "Time": [
                 0.0,
                 0.0
             ],
-            "Target": "scav",
-            "Amount": 5
+            "Target": "secure folder",
+            "Amount": 1
         },
         {
             "ID": 2,
             "Required": true,
-            "Location": "any",
+            "Location": "factory",
             "LocationBoxTopLeft": [
-                0,
-                0
+                294,
+                237
             ],
             "LocationBoxBottomRight": [
-                0,
-                0
+                299,
+                264
             ],
-            "Type": "gather",
+            "Type": "stash",
             "Time": [
                 0.0,
                 0.0
             ],
-            "Target": "MP-133",
-            "Amount": 2
+            "Target": "secure folder",
+            "Amount": 1
         }
     ],
     "Rewards": [
         {
             "Name": "xp",
-            "Amount": 1700
+            "Amount": 4000
         },
         {
             "Name": "Prapor rep",
-            "Amount": 0.02
-        },
-        {
-            "Name": "Jaeger rep",
-            "Amount": 0.01
+            "Amount": 0.03
         },
         {
             "Name": "Roubles",
-            "Amount": 15000
+            "Amount": 20000
         },
         {
-            "Name": "PP-91 Kedr",
+            "Name": "Saiga-12K ver.10",
             "Amount": 1
         },
         {
-            "Name": "9x18 PM BZhT gzh ammo pack (50 rounds)",
+            "Name": "SOK-12 12ga Sb.5 5-round magazine",
+            "Amount": 4
+        },
+        {
+            "Name": "Magnum buckshot ammo pack (25 rounds)",
             "Amount": 2
         },
         {
-            "Name": "Purchase AKS-74UB at Prapor lvl 1",
+            "Name": "Purchase of 5.45x39 FMJ from Prapor lvl 2",
             "Amount": 1
         }
     ]

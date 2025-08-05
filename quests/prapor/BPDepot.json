@@ -1,0 +1,146 @@
+{
+    "QuestName": "BP Depot",
+    "Locations": [
+        "customs"
+    ],
+    "Kappa": true,
+    "LeadsTo": [
+        "Bad Rep Evidence",
+        "The Bunker - Part 1",
+        "Bella and Strelka"
+    ],
+    "Requirements": {
+        "Level": 5,
+        "Quests": [
+            "Delivery From The Past"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "customs",
+            "LocationBoxTopLeft": [
+                241,
+                531
+            ],
+            "LocationBoxBottomRight": [
+                246,
+                555
+            ],
+            "Type": "mark",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "the first tanker truck",
+            "Amount": 0
+        },
+        {
+            "ID": 2,
+            "Required": true,
+            "Location": "customs",
+            "LocationBoxTopLeft": [
+                555,
+                481
+            ],
+            "LocationBoxBottomRight": [
+                561,
+                505
+            ],
+            "Type": "mark",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "the second tanker truck",
+            "Amount": 0
+        },
+        {
+            "ID": 3,
+            "Required": true,
+            "Location": "customs",
+            "LocationBoxTopLeft": [
+                327,
+                149
+            ],
+            "LocationBoxBottomRight": [
+                339,
+                161
+            ],
+            "Type": "mark",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "the third tanker truck",
+            "Amount": 0
+        },
+        {
+            "ID": 4,
+            "Required": true,
+            "Location": "customs",
+            "LocationBoxTopLeft": [
+                970,
+                200
+            ],
+            "LocationBoxBottomRight": [
+                976,
+                224
+            ],
+            "Type": "mark",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "the fourth tanker truck",
+            "Amount": 0
+        },
+        {
+            "ID": 5,
+            "Required": true,
+            "Location": "customs",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "survive",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "Customs raid",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 2800
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.03
+        },
+        {
+            "Name": "Jaeger rep",
+            "Amount": -0.01
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 30000
+        },
+        {
+            "Name": "Expeditionary Fuel Tank",
+            "Amount": 2
+        },
+        {
+            "Name": "Purchase of PP-9 Klin from Prapor lvl 1",
+            "Amount": 1
+        }
+    ]
+}

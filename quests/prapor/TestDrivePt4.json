@@ -1,0 +1,64 @@
+{
+    "QuestName": "Test Drive - Part 4",
+    "Locations": [
+        "shoreline"
+    ],
+    "Kappa": true,
+    "Requirements": {
+        "Level": 40,
+        "Quests": [
+            "Test Drive - Part 3"
+        ]
+    },
+    "LeadsTo": [
+        "Test Drive - Part 5"
+    ],
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "shoreline",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "any targets using the specified RPDN",
+            "Amount": 30
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 40000
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 460000
+        },
+        {
+            "Name": "AVT-40",
+            "Amount": 1
+        },
+        {
+            "Name": "AVT-40 15 round magazine",
+            "Amount": 2
+        },
+        {
+            "Name": "7.62x54 R SNB gzh ammo pack (20 rounds)",
+            "Amount": 3
+        }
+    ]
+}

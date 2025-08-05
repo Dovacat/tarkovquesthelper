@@ -1,0 +1,52 @@
+{
+    "QuestName": "Kings Of The Rooftops",
+    "Locations": [
+        "streets"
+    ],
+    "Kappa": false,
+    "LeadsTo": [
+        "Best Job In The World"
+    ],
+    "Requirements": {
+        "Level": 22,
+        "Quests": [
+            "The Punisher - Part 4"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "streets",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "elimination",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "sniper scavs",
+            "Amount": 10
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 14700
+        },
+        {
+            "Name": "Prapor rep",
+            "Amount": 0.02
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 77000
+        }
+    ]
+}
