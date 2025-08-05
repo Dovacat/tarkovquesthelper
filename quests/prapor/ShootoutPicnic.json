@@ -16,6 +16,7 @@
     },
     "Objectives": [
         {
+            "ID": 1,
             "Required": true,
             "Location": "woods",
             "LocationBoxTopLeft": [

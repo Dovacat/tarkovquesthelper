@@ -143,7 +143,6 @@ class QuestViewer(tk.Tk):
         self.canvas.create_image(
             self.offset_x, self.offset_y, anchor="nw", image=self.tk_im
         )
-        #self._draw_grid(*disp)
         self.redraw_boxes()
 
     def _draw_grid(self, w: int, h: int):
@@ -201,7 +200,7 @@ class QuestViewer(tk.Tk):
         cw = self.orig_im.width / GRID_DIVISIONS
         ch = self.orig_im.height / GRID_DIVISIONS
         gx, gy = round(imgx / cw), round(imgy / ch)
-        print(f"({gx}, {gy})") #Print grid coordinates for box placement
+        print(f"({gx}, {gy})") # Print grid coordinates for box placement
 
     def open_group_manager(self):
         if hasattr(self, "_mgr_win") and self._mgr_win.winfo_exists():

@@ -69,4 +69,3 @@ class Quests:
                     print(f"{name} has duplicate ID number {num}")
                 else:
                     id_nums.append(num)
-
