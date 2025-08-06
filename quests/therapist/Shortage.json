@@ -1,0 +1,65 @@
+{
+    "QuestName": "Shortage",
+    "Locations": [
+        "any"
+    ],
+    "Kappa": true,
+    "LeadsTo": [
+        "Sanitary Standards - Part 1",
+        "Operation Aquarius - Part 1"
+    ],
+    "Requirements": {
+        "Level": 1,
+        "Quests": [
+            "First In Line"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "fir",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "salewa",
+            "Amount": 3
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 2000
+        },
+        {
+            "Name": "Therapist rep",
+            "Amount": 0.03
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 15000
+        },
+        {
+            "Name": "Car first aid kit",
+            "Amount": 2
+        },
+        {
+            "Name": "Analgin painkillers",
+            "Amount": 4
+        },
+        {
+            "Name": "Splint",
+            "Amount": 4
+        }
+    ]
+}
