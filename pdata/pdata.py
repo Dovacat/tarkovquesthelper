@@ -13,9 +13,6 @@ class PlayerData:
         self.quests = q.Quests()
         self.pdata = self.load_data()
 
-        # Run some checks
-        self.quests.check_ID_nums()
-
     def load_data(self):
         with open("./pdata/pdata.json", "r") as f:
             return json.load(f)
@@ -82,15 +79,3 @@ class PlayerData:
                 q_list.remove(quest)
 
         return q_list
-
-    def get_percent_completed_quests(self):
-        pass
-
-    def get_percent_completed_kappa(self):
-        pass
-
-    def get_needed_items(self):
-        pass
-
-    def set_objective_completed(self, quest, objectiveID):
-        pass
