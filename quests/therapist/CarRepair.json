@@ -1,0 +1,81 @@
+{
+    "QuestName": "Car Repair",
+    "Locations": [
+        "any"
+    ],
+    "Kappa": true,
+    "Requirements": {
+        "Level": 10,
+        "Quests": [
+            "Pharmacist"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "fir",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "car battery",
+            "Amount": 4
+        },
+        {
+            "ID": 2,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "fir",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "spark plug",
+            "Amount": 8
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 6900
+        },
+        {
+            "Name": "Therapist rep",
+            "Amount": 0.04
+        },
+        {
+            "Name": "Dollars",
+            "Amount": 1500
+        },
+        {
+            "Name": "Grizzly",
+            "Amount": 1
+        },
+        {
+            "Name": "eTG-C",
+            "Amount": 1
+        },
+        {
+            "Name": "adrenaline",
+            "Amount": 1
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "QuestName": "Painkiller",
+    "Locations": [
+        "any"
+    ],
+    "Kappa": true,
+    "LeadsTo": [
+        "Pharmacist"
+    ],
+    "Requirements": {
+        "Level": 8,
+        "Quests": [
+            "Sanitary Standards - Part 2"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "fir",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "morphine",
+            "Amount": 4
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 4500
+        },
+        {
+            "Name": "Therapist rep",
+            "Amount": 0.03
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 17000
+        },
+        {
+            "Name": "disposable syringe",
+            "Amount": 5
+        },
+        {
+            "Name": "silicone tube",
+            "Amount": 1
+        },
+        {
+            "Name": "analgin",
+            "Amount": 2
+        },
+        {
+            "Name": "pile of meds",
+            "Amount": 2
+        }
+    ]
+}

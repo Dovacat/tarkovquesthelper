@@ -1,0 +1,61 @@
+{
+    "QuestName": "Pharmacist",
+    "Locations": [
+        "woods"
+    ],
+    "Kappa": false,
+    "LeadsTo": [
+        "Dangerous Road",
+        "The Huntsman Path - Woods",
+        "Keeper"
+    ],
+    "Alternatives": [
+        "Kind Of Sabotage"
+    ],
+    "Requirements": {
+        "Level": 13,
+        "Quests": [
+            "Pharmacist"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "woods",
+            "LocationBoxTopLeft": [
+                465,
+                603
+            ],
+            "LocationBoxBottomRight": [
+                471,
+                608
+            ],
+            "Type": "fetch",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "secure folder 0052",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 7500
+        },
+        {
+            "Name": "Therapist rep",
+            "Amount": 0.04
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 75000
+        },
+        {
+            "Name": "CMS surgery kit",
+            "Amount": 1
+        }
+    ]
+}
