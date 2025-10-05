@@ -1,0 +1,60 @@
+{
+    "QuestName": "Sanitary Standards - Part 1",
+    "Locations": [
+        "any"
+    ],
+    "Kappa": true,
+    "LeadsTo": [
+        "Sanitary Standards - Part 2"
+    ],
+    "Requirements": {
+        "Level": 4,
+        "Quests": [
+            "First In Line"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "fir",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "gas analyzer",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 2200
+        },
+        {
+            "Name": "Therapist rep",
+            "Amount": 0.03
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 14000
+        },
+        {
+            "Name": "Car first aid kit",
+            "Amount": 2
+        },
+        {
+            "Name": "Purchase of Car first aid kit at Therapist lvl 1",
+            "Amount": 4
+        }
+    ]
+}

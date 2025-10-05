@@ -1,0 +1,64 @@
+{
+    "QuestName": "Operation Aquarius - Part 1",
+    "Locations": [
+        "customs"
+    ],
+    "Kappa": false,
+    "LeadsTo": [
+        "Operation Aquarius - Part 2"
+    ],
+    "Requirements": {
+        "Level": 6,
+        "Quests": [
+            "Shortage"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "customs",
+            "LocationBoxTopLeft": [
+                610,
+                827
+            ],
+            "LocationBoxBottomRight": [
+                626,
+                844
+            ],
+            "Type": "scout",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "hidden water in the dorms",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 3300
+        },
+        {
+            "Name": "Therapist rep",
+            "Amount": 0.03
+        },
+        {
+            "Name": "Skier rep",
+            "Amount": -0.02
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 14000
+        },
+        {
+            "Name": "Water Bottle",
+            "Amount": 5
+        },
+        {
+            "Name": "Water Filter",
+            "Amount": 1
+        }
+    ]
+}

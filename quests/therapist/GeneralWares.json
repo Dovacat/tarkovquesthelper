@@ -1,0 +1,64 @@
+{
+    "QuestName": "General Wares",
+    "Locations": [
+        "any"
+    ],
+    "Kappa": true,
+    "LeadsTo": [
+        "Colleagues - Part 1"
+    ],
+    "Requirements": {
+        "Level": 10,
+        "Quests": [
+            "Pharmacist"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "any",
+            "LocationBoxTopLeft": [
+                0,
+                0
+            ],
+            "LocationBoxBottomRight": [
+                0,
+                0
+            ],
+            "Type": "fir",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "small tushonka",
+            "Amount": 15
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 4800
+        },
+        {
+            "Name": "Therapist rep",
+            "Amount": 0.03
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 30000
+        },
+        {
+            "Name": "saury",
+            "Amount": 4
+        },
+        {
+            "Name": "iskra",
+            "Amount": 2
+        },
+        {
+            "Name": "coffee beans",
+            "Amount": 2
+        }
+    ]
+}

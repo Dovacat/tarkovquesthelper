@@ -1,0 +1,70 @@
+{
+    "QuestName": "Pharmacist",
+    "Locations": [
+        "customs"
+    ],
+    "Kappa": true,
+    "LeadsTo": [
+        "General Wares",
+        "Health Care Privacy - Part 1",
+        "Car Repair",
+        "Disease History",
+        "Population Census",
+        "Supply Plans",
+        "Kind Of Sabatage"
+    ],
+    "Requirements": {
+        "Level": 10,
+        "Quests": [
+            "Painkiller"
+        ]
+    },
+    "Objectives": [
+        {
+            "ID": 1,
+            "Required": true,
+            "Location": "customs",
+            "LocationBoxTopLeft": [
+                662,
+                940
+            ],
+            "LocationBoxBottomRight": [
+                678,
+                955
+            ],
+            "Type": "fetch",
+            "Time": [
+                0.0,
+                0.0
+            ],
+            "Target": "carbon case",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "Name": "xp",
+            "Amount": 5700
+        },
+        {
+            "Name": "Therapist rep",
+            "Amount": 0.04
+        },
+        {
+            "Name": "Roubles",
+            "Amount": 25000
+        },
+        {
+            "Name": "AFAK",
+            "Amount": 1
+        },
+        {
+            "Name": "pile of meds",
+            "Amount": 3
+        },
+        {
+            "Name": "barter for 6B47 helmet at Ragman lvl 2",
+            "Amount": 2
+        }
+    ]
+}
